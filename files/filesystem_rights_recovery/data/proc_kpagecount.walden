@@ -1,0 +1,7 @@
+# file: proc/kpagecount
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+

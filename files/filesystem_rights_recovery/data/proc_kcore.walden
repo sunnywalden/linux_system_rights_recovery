@@ -1,0 +1,7 @@
+# file: proc/kcore
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+

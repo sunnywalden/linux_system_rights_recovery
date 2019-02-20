@@ -1,0 +1,49 @@
+# file: proc/tty
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/tty/drivers
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/tty/ldiscs
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/tty/driver
+# owner: root
+# group: root
+user::r-x
+group::---
+other::---
+
+# file: proc/tty/driver/usbserial
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/tty/driver/serial
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/tty/ldisc
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+

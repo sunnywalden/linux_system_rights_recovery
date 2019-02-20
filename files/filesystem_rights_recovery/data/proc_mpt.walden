@@ -1,0 +1,42 @@
+# file: proc/mpt
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/mpt/ioc0
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/mpt/ioc0/summary
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/mpt/ioc0/info
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/mpt/version
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/mpt/summary
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+

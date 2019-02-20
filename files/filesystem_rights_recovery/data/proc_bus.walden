@@ -1,0 +1,350 @@
+# file: proc/bus
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/bus/pci
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/bus/pci/03
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/bus/pci/03/00.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/bus/pci/00/18.7
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/18.6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/18.5
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/18.4
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/18.3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/18.2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/18.1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/18.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/17.7
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/17.6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/17.5
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/17.4
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/17.3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/17.2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/17.1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/17.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/16.7
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/16.6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/16.5
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/16.4
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/16.3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/16.2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/16.1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/16.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/15.7
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/15.6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/15.5
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/15.4
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/15.3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/15.2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/15.1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/15.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/11.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/10.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/0f.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/07.7
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/07.3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/07.1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/07.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/01.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/00/00.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/bus/pci/devices
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/bus/input
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/bus/input/handlers
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/bus/input/devices
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+

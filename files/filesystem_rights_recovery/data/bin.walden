@@ -1,0 +1,4601 @@
+# file: bin
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: bin/nroff
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/comm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/catchsegv
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pic
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/cp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gencat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/post-grohtml
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/getent
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pre-grohtml
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/iconv
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/db_printlog
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ldd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/soelim
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/locale
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/preconv
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/localedef
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/tbl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/cut
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/makedb
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/db_recover
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pldd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/troff
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/date
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/rpcgen
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/last
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/dd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sotruss
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/whiptail
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sprof
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/df
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/tzselect
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mesg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/dir
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/getconf
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/wall
+# owner: root
+# group: tty
+# flags: -s-
+user::r-x
+group::r-x
+other::r-x
+
+# file: bin/du
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/alias
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/db_replicate
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/bash
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/hostname
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/bashbug-64
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/db_stat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/bg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/db_tuner
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/cd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/command
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/db_upgrade
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/fc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/db_verify
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/fg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/trust
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/echo
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/getopts
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pinentry
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/jobs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/read
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/clear
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/umask
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/unalias
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/make
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/wait
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/info
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/testgdbm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/infokey
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/infocmp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sed
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/less
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/env
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/egrep
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/lessecho
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/fgrep
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/grep
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/lesskey
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/dgawk
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/tic
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gawk
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/lesspipe.sh
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/igawk
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/nettle-hash
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pgawk
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sexp-conv
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gpg-error
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/tabs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/cpio
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/nettle-lfib-stream
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/xmlcatalog
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pkcs1-conv
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/xmllint
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gapplication
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/xmlwf
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gdbus
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/expr
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/p11-kit
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/glib-compile-schemas
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sqlite3
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/toe
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/lua
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/tput
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/luac
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/tset
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/cmp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/[
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/diff
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gio-querymodules-64
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/diff3
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pkg-config
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sdiff
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/arch
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/find
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gsettings
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/oldfind
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/dbus-binding-tool
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/xargs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/basename
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/idn
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/base64
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/file
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/chgrp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/eqn
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/cat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/update-mime-database
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/false
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/chcon
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/csslint-0.6
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/groff
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/fmt
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/grops
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/fold
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/grotty
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/vi
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/head
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/chmod
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/id
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/chown
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/neqn
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/chacl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/join
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/which
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/cksum
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/csplit
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/xz
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/getfacl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/setfacl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/db_archive
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/xzdec
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/db_dump
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/xzdiff
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/db_checkpoint
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/db_deadlock
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/db_dump185
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/xzgrep
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/db_hotbackup
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/xzless
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/db_load
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/xzmore
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/db_log_verify
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/fipscheck
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pinentry-curses
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/python2.7
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/dircolors
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gunzip
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/dirname
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gzexe
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/rpmdb
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/expand
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gzip
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/lchfn
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/factor
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/zcat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/lchsh
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/groups
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/zcmp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/cal
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/hostid
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/zdiff
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/chfn
+# owner: root
+# group: root
+# flags: s--
+user::rwx
+group::--x
+other::--x
+
+# file: bin/install
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/xgettext
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/link
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/certutil
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ln
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/zegrep
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/logname
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/cmsutil
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ls
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/zfgrep
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/md5sum
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/zforce
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mkdir
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/zgrep
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/chrt
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mkfifo
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/zless
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/chsh
+# owner: root
+# group: root
+# flags: s--
+user::rwx
+group::--x
+other::--x
+
+# file: bin/mknod
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/zmore
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/col
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mktemp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/crlutil
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mv
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/modutil
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/nice
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pk12util
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/nl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/znew
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/colrm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/nohup
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pwmake
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/nproc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pwscore
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/numfmt
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/signtool
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/od
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/free
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/dmesg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/paste
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pgrep
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/eject
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pathchk
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pkill
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/flock
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pinky
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/signver
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pr
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pmap
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/printenv
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ps
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ipcmk
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/printf
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ssltap
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ptx
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/openssl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pwd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pwdx
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ipcrm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/readlink
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/skill
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ipcs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/realpath
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/aserver
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/rm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/slabtop
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/rmdir
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/snice
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/kill
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/runcon
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/addr2line
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/seq
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/tload
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/login
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sha1sum
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/top
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/look
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sha224sum
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/uptime
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sha256sum
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/vmstat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sha384sum
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/w
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/lsblk
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sha512sum
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/watch
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/lscpu
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/shred
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ar
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/shuf
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/envsubst
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sleep
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/as
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sort
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gettext
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/split
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/c++filt
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/stat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gettext.sh
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/stdbuf
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/dwp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/stty
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/elfedit
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sum
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gprof
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sync
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ld.bfd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/tac
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/nm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/tail
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/objcopy
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/tee
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/objdump
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/test
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/msgattrib
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/timeout
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/msgcat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/touch
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ranlib
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/tr
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/readelf
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/true
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/msgcmp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/truncate
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/msgcomm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/tsort
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/size
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/tty
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/msgconv
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/uname
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/msgen
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/more
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/unexpand
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/strings
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/uniq
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/msgexec
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/unlink
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/msgfilter
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/users
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/strip
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/vdir
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ld.gold
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/wc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/fipshmac
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/who
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/msgfmt
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/whoami
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/rpm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/yes
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/msggrep
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ca-legacy
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mount
+# owner: root
+# group: root
+# flags: s--
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/update-ca-trust
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/msghack
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/chage
+# owner: root
+# group: root
+# flags: s--
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/msginit
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gpasswd
+# owner: root
+# group: root
+# flags: s--
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/msgmerge
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/lastlog
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/msgunfmt
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/newgrp
+# owner: root
+# group: root
+# flags: s--
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/curl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/msguniq
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pydoc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ngettext
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/rpm2cpio
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/recode-sr-latin
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/setup-nsssysinit.sh
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemd-ask-password
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/rpmkeys
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemd-cat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemd-cgls
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemd-cgtop
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/colcrt
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/column
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemd-delta
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/fallocate
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemd-detect-virt
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/findmnt
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemd-escape
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/getopt
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemd-firstboot
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/hexdump
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemd-hwdb
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ionice
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemd-inhibit
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/isosize
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemd-notify
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemd-nspawn
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/logger
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemd-path
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/lslocks
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemd-run
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/lslogins
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemd-stdio-bridge
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mcookie
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemd-tmpfiles
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mountpoint
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/timedatectl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/namei
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/udevadm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/nsenter
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/dbus-cleanup-sockets
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/prlimit
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/vxloader
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/raw
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/dbus-daemon
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/rename
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/dbus-monitor
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/renice
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ndptool
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/rev
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/dbus-send
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/script
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/dbus-uuidgen
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/scriptreplay
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemd-sysv-convert
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/setarch
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ping
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/chvt
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/setpriv
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ping6
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/setsid
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/tracepath
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/setterm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/nm-online
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/su
+# owner: root
+# group: root
+# flags: s--
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/tracepath6
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/tailf
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ipcalc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/taskset
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/nmcli
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ul
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/usleep
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/umount
+# owner: root
+# group: root
+# flags: s--
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pkaction
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/unshare
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pkcheck
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/utmpdump
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pkexec
+# owner: root
+# group: root
+# flags: s--
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/uuidgen
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pkttyagent
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/wdctl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pkla-admin-identities
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/whereis
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/crontab
+# owner: root
+# group: root
+# flags: s--
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/write
+# owner: root
+# group: tty
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/run-parts
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/linux-boot-prober
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/secon
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/os-prober
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ssh-keygen
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/grub2-editenv
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/urlgrabber
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/grub2-file
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/lsscsi
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/dumpkeys
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/grub2-fstest
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gpg-agent
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemctl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/vlock
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gpg-connect-agent
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/grub2-glue-efi
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gpg-zip
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/kbd_mode
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gpg2
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/grub2-kbdcomp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gpgconf
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/grub2-menulst2cfg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gpgparsemail
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/grub2-mkfont
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gpgsplit
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/loadkeys
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/grub2-mkimage
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gpgv2
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/grub2-mklayout
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/watchgnupg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/setfont
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/yum
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/grub2-mknetdir
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/grub2-mkpasswd-pbkdf2
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/dracut
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/grub2-mkrelpath
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/lsinitrd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/grub2-mkrescue
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mkinitrd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/unicode_start
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/kmod
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/grub2-mkstandalone
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/bootctl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/grub2-render-label
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/busctl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/grub2-script-check
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/coredumpctl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/grub2-syslinux2cfg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/hostnamectl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/plymouth
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/journalctl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemd-analyze
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/kernel-install
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/hdsploader
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/localectl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mixartloader
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/loginctl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/usx2yloader
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/machinectl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/unicode_stop
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemd-machine-id-setup
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/systemd-tty-ask-password-agent
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pkla-check-authorization
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/deallocvt
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/fgconsole
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/getkeycodes
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/kbdinfo
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/kbdrate
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/loadunimap
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mapscrn
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/openvt
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/git-upload-pack
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/psfxtable
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/compile_et
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/resizecons
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pcre-config
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/setkeycodes
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/xxd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mysql
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/setleds
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/c89
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/m4
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/setmetamode
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/c99
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/flex
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/setvtrgb
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/psed
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/unzipsfx
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/showconsolefont
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/showkey
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gcc-ar
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/kdumpctl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/splain
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/c2ph
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gcc-nm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/perl5.16.3
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/perlthanks
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/zipgrep
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/nmtui
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/nmtui-connect
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/nmtui-edit
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/nmtui-hostname
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/perlbug
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/unzip
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/rsyslog-recover-qi.pl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gcc-ranlib
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gcov
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/catman
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gcc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/yacc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/lexgrog
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/zipinfo
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/man
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/krb5-config
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mandb
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/gss-client
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/manpath
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sclient
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/whatis
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/rsync
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/telnet
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/centrino-decode
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sim_client
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/cpupower
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/x86_64-redhat-linux-gcc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/powernow-k8-decode
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/rz
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/tmon
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/uuclient
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/turbostat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/s2p
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pip2
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/x86_energy_perf_policy
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/vim
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/aulast
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/c++
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pip
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/aulastlog
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/g++
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ausyscall
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/auvirt
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/git-shell
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/git
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sz
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/git-upload-archive
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/rmail.postfix
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/rb
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/scp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/rx
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sftp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/vimtutor
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/screen
+# owner: root
+# group: screen
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ssh
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/cifsiostat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ssh-add
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/iostat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ssh-agent
+# owner: root
+# group: nobody
+# flags: -s-
+user::--x
+group::--x
+other::--x
+
+# file: bin/mpstat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ssh-copy-id
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ncurses5-config
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ssh-keyscan
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pidstat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/passwd
+# owner: root
+# group: root
+# flags: s--
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sb
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sudo
+# owner: root
+# group: root
+# flags: s--
+user::--x
+group::--x
+other::--x
+
+# file: bin/sadf
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sar
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sudoreplay
+# owner: root
+# group: root
+user::--x
+group::--x
+other::--x
+
+# file: bin/ntpstat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/chattr
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ndiff
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/lsattr
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/sx
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/dstat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/tar
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/netstat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/wget
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/cpp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ftp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ncat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/nmap
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pod2man
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/nping
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pod2text
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mailx
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/perldoc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/piconv
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pod2usage
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/aria_chk
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/a2p
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/find2perl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/filebeat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/h2ph
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/funzip
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pl2pm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/tree
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pod2html
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/finger
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pstruct
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/aria_dump_log
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/perl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/git-receive-pack
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/vm-support
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/x86_64-redhat-linux-c++
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/x86_64-redhat-linux-g++
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/graylog-collector-sidecar
+# owner: root
+# group: root
+user::rwx
+group::rwx
+other::r-x
+
+# file: bin/aria_ftdump
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/aria_pack
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/aria_read_log
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/msql2mysql
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/my_print_defaults
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mysql_find_rows
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mysql_waitpid
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mysqlaccess
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mysqladmin
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mysqlbinlog
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mysqlcheck
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mysqldump
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mysqlimport
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mysqlshow
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/mysqlslap
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/vmware-config-tools.pl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/vmware-uninstall-tools.pl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/nfsiostat-sysstat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/tapestat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pcap-config
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/ncursesw5-config
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/easy_install
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/easy_install-2.7
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/chardetect
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: bin/pip2.7
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+

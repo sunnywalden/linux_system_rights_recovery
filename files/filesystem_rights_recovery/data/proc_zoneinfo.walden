@@ -1,0 +1,7 @@
+# file: proc/zoneinfo
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+

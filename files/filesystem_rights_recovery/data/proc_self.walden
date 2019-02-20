@@ -1,0 +1,1218 @@
+# file: proc/self
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/self/task
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/self/task/7305
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/self/task/7305/fd
+# owner: root
+# group: root
+user::r-x
+group::---
+other::---
+
+# file: proc/self/task/7305/fdinfo
+# owner: root
+# group: root
+user::r-x
+group::---
+other::---
+
+# file: proc/self/task/7305/fdinfo/0
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/task/7305/fdinfo/1
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/task/7305/fdinfo/2
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/task/7305/fdinfo/3
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/task/7305/fdinfo/4
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/task/7305/fdinfo/5
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/task/7305/fdinfo/6
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/task/7305/fdinfo/7
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/task/7305/fdinfo/8
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/task/7305/fdinfo/9
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/task/7305/ns
+# owner: root
+# group: root
+user::r-x
+group::--x
+other::--x
+
+# file: proc/self/task/7305/environ
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/task/7305/auxv
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/task/7305/status
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/personality
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/limits
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/sched
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/self/task/7305/comm
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/self/task/7305/syscall
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/cmdline
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/stat
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/statm
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/maps
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/children
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/numa_maps
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/mem
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: proc/self/task/7305/mounts
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/mountinfo
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/clear_refs
+# owner: root
+# group: root
+user::-w-
+group::---
+other::---
+
+# file: proc/self/task/7305/smaps
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/pagemap
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/attr
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/self/task/7305/attr/current
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: proc/self/task/7305/attr/prev
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/attr/exec
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: proc/self/task/7305/attr/fscreate
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: proc/self/task/7305/attr/keycreate
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: proc/self/task/7305/attr/sockcreate
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: proc/self/task/7305/wchan
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/stack
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/cpuset
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/cgroup
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/oom_score
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/oom_adj
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/self/task/7305/oom_score_adj
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/self/task/7305/loginuid
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/self/task/7305/sessionid
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/task/7305/io
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/task/7305/uid_map
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/self/task/7305/gid_map
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/self/task/7305/projid_map
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/self/task/7305/setgroups
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/self/fd
+# owner: root
+# group: root
+user::r-x
+group::---
+other::---
+
+# file: proc/self/map_files
+# owner: root
+# group: root
+user::r-x
+group::---
+other::---
+
+# file: proc/self/fdinfo
+# owner: root
+# group: root
+user::r-x
+group::---
+other::---
+
+# file: proc/self/fdinfo/0
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/fdinfo/1
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/fdinfo/2
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/fdinfo/3
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/fdinfo/4
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/fdinfo/5
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/fdinfo/6
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/fdinfo/7
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/ns
+# owner: root
+# group: root
+user::r-x
+group::--x
+other::--x
+
+# file: proc/self/net
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/self/net/nf_conntrack
+# owner: root
+# group: root
+user::r--
+group::r--
+other::---
+
+# file: proc/self/net/nf_conntrack_expect
+# owner: root
+# group: root
+user::r--
+group::r--
+other::---
+
+# file: proc/self/net/ip_tables_targets
+# owner: root
+# group: root
+user::r--
+group::r--
+other::---
+
+# file: proc/self/net/ip_tables_matches
+# owner: root
+# group: root
+user::r--
+group::r--
+other::---
+
+# file: proc/self/net/ip_tables_names
+# owner: root
+# group: root
+user::r--
+group::r--
+other::---
+
+# file: proc/self/net/packet
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/ip6_flowlabel
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/rt6_stats
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/ipv6_route
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/if_inet6
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/dev_snmp6
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/self/net/dev_snmp6/ens160
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/dev_snmp6/lo
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/snmp6
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/sockstat6
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/udplite6
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/raw6
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/mcfilter6
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/igmp6
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/ip6_mr_cache
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/ip6_mr_vif
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/anycast6
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/tcp6
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/udp6
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/unix
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/snmp
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/netstat
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/sockstat
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/icmp
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/udp
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/tcp
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/raw
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/ip_mr_cache
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/ip_mr_vif
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/udplite
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/mcfilter
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/igmp
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/xfrm_stat
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/rt_acct
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/rt_cache
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/route
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/fib_triestat
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/fib_trie
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/arp
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/psched
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/dev_mcast
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/wireless
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/ptype
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/softnet_stat
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/dev
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/protocols
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/connector
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/netlink
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/netfilter
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/self/net/netfilter/nf_log
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/stat
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/self/net/stat/nf_conntrack
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/stat/ndisc_cache
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/stat/rt_cache
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/net/stat/arp_cache
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/environ
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/auxv
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/status
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/personality
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/limits
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/sched
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/self/autogroup
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/self/comm
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/self/syscall
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/cmdline
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/stat
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/statm
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/maps
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/numa_maps
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/mem
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: proc/self/mounts
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/mountinfo
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/mountstats
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/clear_refs
+# owner: root
+# group: root
+user::-w-
+group::---
+other::---
+
+# file: proc/self/smaps
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/pagemap
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/attr
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/self/attr/current
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: proc/self/attr/prev
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/attr/exec
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: proc/self/attr/fscreate
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: proc/self/attr/keycreate
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: proc/self/attr/sockcreate
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: proc/self/wchan
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/stack
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/cpuset
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/cgroup
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/oom_score
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/oom_adj
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/self/oom_score_adj
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/self/loginuid
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/self/sessionid
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/self/coredump_filter
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/self/io
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: proc/self/uid_map
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/self/gid_map
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/self/projid_map
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/self/setgroups
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/self/timers
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+

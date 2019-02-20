@@ -1,0 +1,2296 @@
+# file: boot
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: boot/grub
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: boot/grub/splash.xpm.gz
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: boot/grub2/themes
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: boot/grub2/themes/system
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: boot/grub2/device.map
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: boot/grub2/i386-pc/acpi.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/date.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/adler32.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/datehook.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/affs.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/datetime.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/afs.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/disk.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/ahci.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/all_video.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/chain.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/aout.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/diskfilter.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/archelp.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/cmdline_cat_test.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/at_keyboard.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/ata.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/div_test.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/configfile.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/backtrace.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/cpio.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/bfs.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/dm_nv.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/biosdisk.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/drivemap.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/bitmap.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/cpio_be.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/bitmap_scale.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/cpuid.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/blocklist.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/crc64.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/blscfg.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/echo.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/efiemu.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/boot.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/crypto.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/bsd.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/ehci.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/btrfs.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/elf.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/bufio.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/eval.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/cat.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/exfat.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/cbfs.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/exfctest.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/cbls.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/ext2.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/cbmemc.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/cbtable.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/cryptodisk.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/extcmd.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/cbtime.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/font.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/cmosdump.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/cs5536.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/fat.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/cmostest.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/cmp.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/file.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/freedos.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/fshelp.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/functional_test.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_arcfour.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gptsync.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_blowfish.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gzio.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_camellia.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/halt.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_cast5.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/hashsum.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_crc.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/legacycfg.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_des.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/hdparm.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_dsa.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/hello.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_idea.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/linux.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_md4.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/help.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_md5.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/hexdump.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_rfc2268.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/hfs.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_rijndael.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/hfsplus.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_rmd160.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/linux16.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_rsa.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/hfspluscomp.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_seed.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/http.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_serpent.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/iorw.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_sha1.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/iso9660.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_sha256.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/jfs.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_sha512.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/jpeg.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_tiger.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_twofish.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/keylayouts.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gcry_whirlpool.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gdb.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/loadenv.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/geli.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/loopback.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gettext.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/keystatus.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gfxmenu.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/ls.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gfxterm.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/ldm.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gfxterm_menu.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/gfxterm_background.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/legacy_password_test.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/lsacpi.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/lsapm.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/lsmmap.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/lspci.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/luks.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/lvm.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/lzopio.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/macbless.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/macho.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/mda_text.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/mdraid09.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/mdraid09_be.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/mdraid1x.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/memdisk.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/memrw.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/minicmd.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/minix.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/minix2.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/minix2_be.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/minix3.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/minix3_be.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/minix_be.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/mmap.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/morse.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/mpi.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/msdospart.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/multiboot.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/multiboot2.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/nativedisk.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/net.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/newc.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/nilfs2.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/normal.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/ntfs.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/ntfscomp.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/ntldr.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/odc.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/offsetio.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/ohci.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/part_acorn.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/part_amiga.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/part_apple.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/part_bsd.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/part_dfly.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/part_dvh.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/part_gpt.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/part_msdos.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/part_plan.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/part_sun.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/part_sunpc.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/parttool.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/password.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/password_pbkdf2.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/pata.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/pbkdf2.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/pbkdf2_test.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/pci.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/pcidump.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/plan9.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/play.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/png.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/priority_queue.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/probe.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/procfs.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/progress.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/pxe.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/pxechain.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/raid5rec.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/raid6rec.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/read.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/reboot.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/regexp.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/reiserfs.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/relocator.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/romfs.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/scsi.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/search.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/search_fs_file.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/search_fs_uuid.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/search_label.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/sendkey.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/serial.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/setjmp.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/setjmp_test.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/setpci.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/sfs.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/signature_test.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/sleep.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/sleep_test.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/spkmodem.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/squash4.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/syslinuxcfg.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/tar.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/terminal.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/terminfo.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/test.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/test_blockarg.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/testload.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/testspeed.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/tftp.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/tga.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/time.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/tr.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/trig.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/true.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/truecrypt.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/udf.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/ufs1.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/ufs1_be.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/ufs2.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/uhci.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/usb.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/usb_keyboard.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/usbms.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/usbserial_common.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/usbserial_ftdi.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/usbserial_pl2303.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/usbserial_usbdebug.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/usbtest.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/vbe.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/verify.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/vga.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/vga_text.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/video.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/video_bochs.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/video_cirrus.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/video_colors.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/video_fb.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/videoinfo.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/videotest.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/videotest_checksum.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/xfs.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/xnu.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/xnu_uuid.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/xnu_uuid_test.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/xzio.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/zfs.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/zfscrypt.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/zfsinfo.mod
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/efiemu32.o
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/efiemu64.o
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/moddep.lst
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/command.lst
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/fs.lst
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/partmap.lst
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/parttool.lst
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/video.lst
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/crypto.lst
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/terminal.lst
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/modinfo.sh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/core.img
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/i386-pc/boot.img
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: boot/grub2/locale/ast.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/ca.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/da.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/de.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/de_CH.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/en.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/en@quot.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/eo.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/es.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/fi.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/fr.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/gl.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/hu.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/id.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/it.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/ja.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/lt.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/nl.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/pa.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/pl.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/pt_BR.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/ru.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/sl.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/sv.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/tr.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/uk.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/vi.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/zh_CN.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/zh_TW.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/de@hebrew.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/en@arabic.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/en@cyrillic.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/en@greek.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/en@hebrew.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/locale/en@piglatin.mo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/fonts
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: boot/grub2/fonts/unicode.pf2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/grubenv
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/grub2/grub.cfg
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/.vmlinuz-3.10.0-327.el7.x86_64.hmac
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/System.map-3.10.0-327.el7.x86_64
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: boot/config-3.10.0-327.el7.x86_64
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/symvers-3.10.0-327.el7.x86_64.gz
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/vmlinuz-3.10.0-327.el7.x86_64
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: boot/initrd-plymouth.img
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/initramfs-0-rescue-fa1d19e1e77e4aa8bf604732bf1d6709.img
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: boot/vmlinuz-0-rescue-fa1d19e1e77e4aa8bf604732bf1d6709
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: boot/initramfs-3.10.0-327.el7.x86_64.img
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: boot/initramfs-3.10.0-327.el7.x86_64kdump.img
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+

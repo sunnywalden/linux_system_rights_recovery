@@ -1,0 +1,7 @@
+# file: proc/interrupts
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+

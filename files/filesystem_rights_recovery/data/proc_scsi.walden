@@ -1,0 +1,91 @@
+# file: proc/scsi
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/scsi/sg
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/scsi/sg/version
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/scsi/sg/device_strs
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/scsi/sg/devices
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/scsi/sg/device_hdr
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/scsi/sg/def_reserved_size
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/scsi/sg/debug
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/scsi/sg/allow_dio
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/scsi/mptspi
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/scsi/mptspi/2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/scsi/device_info
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/scsi/scsi
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+

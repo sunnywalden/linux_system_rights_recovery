@@ -1,0 +1,61 @@
+---
+#filesystem acl
+
+- name: filesystem rights recovery
+  hosts: dev
+  strategy: free
+  remote_user: root
+  gather_facts: yes
+  vars:
+    run_path: "/tmp/filesystem_rights_recovery"
+  tasks:
+  - name: copy scripts
+    copy:
+      src: filesystem_rights_recovery/
+      mode: 0755
+      dest: "{{ run_path }}/"
+    tags: ['app-install']
+
+  - name: install pip if not exists
+    yum:
+      name: python-pip
+      state: present
+    tags: ['app-install']
+
+  - name: install dependent packages
+    command: "pip install -r {{ run_path }}/requirements.txt"
+    args:
+      chdir: "{{ run_path }}/"
+    tags: ['app-install']
+
+  # - name: backup system rights via ACL
+  #   command: /usr/bin/python2 filesystem_recovery_by_acl.py backup
+  #   args:
+  #     chdir: "{{ run_path }}/main/"
+  #   register: swap_exists_backup
+  #   failed_when: swap_exists_backup.rc != 1 and swap_exists_backup.rc != 0
+  #   tags: ['acl-backup']
+
+  - name: restore system rights via ACL
+    command: /usr/bin/python2 filesystem_recovery_by_acl.py restore
+    args:
+      chdir: "{{ run_path }}/main/"
+    register: swap_exists_restore
+    failed_when: swap_exists_restore.rc != 1 and swap_exists_restore.rc != 0
+    tags: ['acl-restore']
+
+  - name: delete files in root directory
+    command: /usr/bin/python2 delete_files.py
+    #ignore_errors: true
+    args:
+      chdir: "{{ run_path }}/main/"
+    #  executable: /usr/bin/python2
+    register: swap_exists
+    failed_when: swap_exists.rc != 1 and swap_exists.rc != 0
+    tags: ['file-delete']
+
+  - name: delete app diretory
+    file:
+      path: "{{ run_path }}/"
+      state: absent
+    tags: ['acl-restore']

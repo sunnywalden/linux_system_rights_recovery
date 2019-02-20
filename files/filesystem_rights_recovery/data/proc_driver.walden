@@ -1,0 +1,21 @@
+# file: proc/driver
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/driver/rtc
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/driver/nvram
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+

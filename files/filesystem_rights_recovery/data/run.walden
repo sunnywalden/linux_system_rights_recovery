@@ -1,0 +1,3110 @@
+# file: run
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/sshd.pid
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/vmtoolsd.pid
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/cron.reboot
+# owner: root
+# group: root
+user::---
+group::---
+other::---
+
+# file: run/crond.pid
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/syslogd.pid
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: run/xtables.lock
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: run/dbus
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/dbus/system_bus_socket
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: run/auditd.pid
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/screen
+# owner: root
+# group: screen
+user::rwx
+group::rwx
+other::r-x
+
+# file: run/tuned
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/tuned/tuned.pid
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/sudo
+# owner: root
+# group: root
+user::rwx
+group::--x
+other::--x
+
+# file: run/sudo/ts
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: run/netreport
+# owner: root
+# group: root
+user::rwx
+group::rwx
+other::r-x
+
+# file: run/utmp
+# owner: root
+# group: utmp
+user::rw-
+group::rw-
+other::r--
+
+# file: run/faillock
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/user
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/user/0
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: run/console
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/sepermit
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/setrans
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/ppp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/lvmetad.pid
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/lvm
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: run/lvm/lvmpolld.socket
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: run/lvm/lvmetad.socket
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: run/dmeventd-client
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: run/dmeventd-server
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: run/plymouth
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/tmpfiles.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/tmpfiles.d/kmod.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/watch
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/static_node-tags
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/static_node-tags/uaccess
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/control
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: run/udev/links
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fmapper\134x2fcentos-datalvm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fmapper\134x2fcentos-datalvm/b253:2
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-uuid\134x2f333e5479-0b01-48e8-aa4b-3921a6fb765d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-uuid\134x2f333e5479-0b01-48e8-aa4b-3921a6fb765d/b253:2
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2fdm-uuid-LVM-tU4xX8pY5VLYez3KeOa4iHzrcmDRdpmJcv8cjowiWlc7o0yjeFv3oUrtfiVx06V4
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2fdm-uuid-LVM-tU4xX8pY5VLYez3KeOa4iHzrcmDRdpmJcv8cjowiWlc7o0yjeFv3oUrtfiVx06V4/b253:2
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2fdm-name-centos-datalvm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2fdm-name-centos-datalvm/b253:2
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fcentos\134x2fdatalvm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fcentos\134x2fdatalvm/b253:2
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2finput\134x2fby-path\134x2fplatform-pcspkr-event-spkr
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2finput\134x2fby-path\134x2fplatform-pcspkr-event-spkr/c13:67
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-path\134x2fpci-0000:00:07.1-ata-2.0
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-path\134x2fpci-0000:00:07.1-ata-2.0/b11:0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2fata-VMware_Virtual_IDE_CDROM_Drive_10000000000000000001
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2fata-VMware_Virtual_IDE_CDROM_Drive_10000000000000000001/b11:0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fcdrom
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fcdrom/b11:0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fmapper\134x2fcentos-swap
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fmapper\134x2fcentos-swap/b253:1
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-uuid\134x2fb537f799-f59e-45b0-a653-dd9a67e72607
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-uuid\134x2fb537f799-f59e-45b0-a653-dd9a67e72607/b253:1
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2fdm-uuid-LVM-tU4xX8pY5VLYez3KeOa4iHzrcmDRdpmJ9td9i7ttXyRFdKYUGuvPZ217l45OUx2G
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2fdm-uuid-LVM-tU4xX8pY5VLYez3KeOa4iHzrcmDRdpmJ9td9i7ttXyRFdKYUGuvPZ217l45OUx2G/b253:1
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2fdm-name-centos-swap
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2fdm-name-centos-swap/b253:1
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fcentos\134x2fswap
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fcentos\134x2fswap/b253:1
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fmapper\134x2fcentos-root
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fmapper\134x2fcentos-root/b253:0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-uuid\134x2fce11f400-6b06-46a3-b9dd-919e77af307a
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-uuid\134x2fce11f400-6b06-46a3-b9dd-919e77af307a/b253:0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2fdm-uuid-LVM-tU4xX8pY5VLYez3KeOa4iHzrcmDRdpmJcWgDIYwfaB4NGeqdZFwKcqijwM3nOqsy
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2fdm-uuid-LVM-tU4xX8pY5VLYez3KeOa4iHzrcmDRdpmJcWgDIYwfaB4NGeqdZFwKcqijwM3nOqsy/b253:0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2fdm-name-centos-root
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2fdm-name-centos-root/b253:0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fcentos\134x2froot
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fcentos\134x2froot/b253:0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-uuid\134x2fa597d2a4-378c-4b67-92bb-55f78a657862
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-uuid\134x2fa597d2a4-378c-4b67-92bb-55f78a657862/b8:1
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-path\134x2fpci-0000:00:10.0-scsi-0:0:0:0-part1
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-path\134x2fpci-0000:00:10.0-scsi-0:0:0:0-part1/b8:1
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-path\134x2fpci-0000:00:10.0-scsi-0:0:1:0-part1
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-path\134x2fpci-0000:00:10.0-scsi-0:0:1:0-part1/b8:17
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2flvm-pv-uuid-dHyrW7-USQj-4LqT-WHWo-WdJc-kBxO-eFTtMZ
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2flvm-pv-uuid-dHyrW7-USQj-4LqT-WHWo-WdJc-kBxO-eFTtMZ/b8:17
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2finput\134x2fby-path\134x2fplatform-i8042-serio-1-event-mouse
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2finput\134x2fby-path\134x2fplatform-i8042-serio-1-event-mouse/c13:66
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-path\134x2fpci-0000:00:10.0-scsi-0:0:1:0
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-path\134x2fpci-0000:00:10.0-scsi-0:0:1:0/b8:16
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-path\134x2fpci-0000:00:10.0-scsi-0:0:0:0-part2
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-path\134x2fpci-0000:00:10.0-scsi-0:0:0:0-part2/b8:2
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2flvm-pv-uuid-Of6e4m-Boue-lW6f-JKLW-sv0Q-pn10-kQp8kv
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2flvm-pv-uuid-Of6e4m-Boue-lW6f-JKLW-sv0Q-pn10-kQp8kv/b8:2
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2finput\134x2fby-path\134x2fplatform-i8042-serio-0-event-kbd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2finput\134x2fby-path\134x2fplatform-i8042-serio-0-event-kbd/c13:65
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-path\134x2fpci-0000:00:10.0-scsi-0:0:0:0
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-path\134x2fpci-0000:00:10.0-scsi-0:0:0:0/b8:0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-path\134x2fpci-0000:00:10.0-scsi-0:0:3:0
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-path\134x2fpci-0000:00:10.0-scsi-0:0:3:0/b8:48
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2flvm-pv-uuid-DQEVVE-FBRT-6XFo-iATd-broI-hiIw-a8QTF2
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2flvm-pv-uuid-DQEVVE-FBRT-6XFo-iATd-broI-hiIw-a8QTF2/b8:48
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-path\134x2fpci-0000:00:10.0-scsi-0:0:2:0
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-path\134x2fpci-0000:00:10.0-scsi-0:0:2:0/b8:32
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2flvm-pv-uuid-z9ztfZ-Xovz-ZBtQ-HvNO-12bd-fcgT-2IK5OK
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2fdisk\134x2fby-id\134x2flvm-pv-uuid-z9ztfZ-Xovz-ZBtQ-HvNO-12bd-fcgT-2IK5OK/b8:32
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2finput\134x2fby-path\134x2fplatform-i8042-serio-1-mouse
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2finput\134x2fby-path\134x2fplatform-i8042-serio-1-mouse/c13:32
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/links/\134x2frtc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/links/\134x2frtc/c253:0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/tags/power-switch
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/tags/power-switch/c13:64
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/uaccess
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/tags/uaccess/b11:0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/uaccess/c21:4
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/uaccess/c226:0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/uaccess/c226:128
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/master-of-seat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/tags/master-of-seat/c29:0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/seat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/tags/seat/b11:0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/seat/+input:input3
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/seat/c21:4
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/seat/+input:input2
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/seat/+input:input1
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/seat/c226:0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/seat/c29:0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/seat/c226:128
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/seat/+input:input0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/systemd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/tags/systemd/b253:2
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/systemd/b11:0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/systemd/b253:1
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/systemd/b253:0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/systemd/b8:1
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/systemd/b8:17
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/systemd/b8:16
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/systemd/b8:2
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/systemd/b8:0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/systemd/b8:48
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/systemd/b8:32
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/systemd/c4:65
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/systemd/n2
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/systemd/c4:64
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/systemd/c4:67
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/systemd/c4:66
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/systemd/b2:0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/tags/systemd/+module:configfs
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: run/udev/data
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/udev/data/c7:133
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c7:134
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c7:3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c7:130
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c7:6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c7:2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c7:5
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c7:132
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c7:4
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c7:131
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/b253:2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c13:67
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/b11:0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c99:0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/b253:1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/b253:0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/b8:1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/b8:17
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/b8:16
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c13:66
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+input:input3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c21:4
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c21:3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/b8:2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c21:2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/n1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c21:0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c21:1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c13:65
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c10:58
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/b8:0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c7:129
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c7:128
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c7:1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c7:0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c250:0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:9
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:8
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:7
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:63
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:62
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:61
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:60
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:59
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:57
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:58
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:4
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:56
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:55
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:54
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:53
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:46
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:52
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:51
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:50
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:5
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:49
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:48
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:47
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:45
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:44
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:42
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:43
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:41
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:40
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:38
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:39
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:37
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:36
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:32
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:35
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:34
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:33
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:31
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:30
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:28
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:29
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:27
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:25
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/b8:48
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:26
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:24
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:22
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:23
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:21
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:20
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:19
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:18
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:17
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:16
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:12
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:15
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:14
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:13
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:11
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:10
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c5:0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c5:2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c5:1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/b8:32
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c162:0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c202:7
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c202:6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c202:4
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c10:175
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c202:5
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c202:3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c202:2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c202:1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c10:63
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c10:231
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c202:0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c10:144
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c10:60
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c10:59
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c10:184
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c10:227
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c10:236
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c10:228
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c10:62
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c10:61
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c10:235
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c1:3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c1:9
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c1:5
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c1:8
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c1:4
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c1:1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c1:12
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c13:63
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c1:7
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c1:11
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c203:7
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c203:6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c203:4
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c203:5
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c203:3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c203:0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c203:1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c203:2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c251:0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:65
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c251:3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/n2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:64
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c251:1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c13:64
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c251:2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c13:32
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c253:0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:67
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+input:input2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+input:input1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c4:66
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c251:4
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/b2:0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:18.6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:18.7
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:18.4
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:18.5
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:18.1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:18.3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:18.2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:18.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:17.7
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:17.6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:17.5
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:17.4
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:17.3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:17.1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:17.2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:17.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:16.7
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:16.6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:16.5
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:16.4
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:16.3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:16.2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:16.1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:16.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:15.4
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:15.7
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:15.6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:15.5
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:15.3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:03:00.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+drm:card0-Virtual-8
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+drm:card0-Virtual-6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+drm:card0-Virtual-4
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+drm:card0-Virtual-7
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+drm:card0-Virtual-5
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+drm:card0-Virtual-3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+drm:card0-Virtual-2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+drm:card0-Virtual-1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:15.2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c226:0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:15.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:15.1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:11.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c29:0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c226:128
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/c226:64
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+acpi:APP0001:00
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+acpi:VMW0001:00
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:07.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:07.1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:07.3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:00.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:01.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:0f.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:10.0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+pci:0000:00:07.7
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+input:input0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/udev/data/+module:configfs
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/mount
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/mount/utab
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/log
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/log/journal
+# owner: root
+# group: systemd-journal
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/log/journal/fa1d19e1e77e4aa8bf604732bf1d6709
+# owner: root
+# group: systemd-journal
+# flags: -s-
+user::rwx
+group::r-x
+other::---
+
+# file: run/log/journal/fa1d19e1e77e4aa8bf604732bf1d6709/system.journal
+# owner: root
+# group: systemd-journal
+user::rw-
+group::r--
+other::---
+
+# file: run/lock
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/lock/kdump
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/lock/subsys
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/lock/subsys/network
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/lock/subsys/vmware-tools
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/lock/subsys/iptables
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/lock/lockdev
+# owner: root
+# group: lock
+user::rwx
+group::rwx
+other::r-x
+
+# file: run/lock/ppp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/lock/lvm
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: run/initramfs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/initramfs/rwtab
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/initramfs/state
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/initramfs/state/var
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/initramfs/state/var/lib
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/initramfs/state/var/lib/dhclient
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/initramfs/state/etc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/initramfs/state/etc/sysconfig
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/initramfs/state/etc/sysconfig/network-scripts
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/initramfs/.need_shutdown
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/initramfs/log
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/ask-password-block
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: run/systemd/ask-password-block/4:1
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: run/systemd/sessions
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/sessions/170
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/systemd/sessions/170.ref
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: run/systemd/seats
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/seats/seat0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/systemd/machines
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/users
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/users/0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/systemd/netif
+# owner: systemd-network
+# group: systemd-network
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/netif/leases
+# owner: systemd-network
+# group: systemd-network
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/netif/links
+# owner: systemd-network
+# group: systemd-network
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/shutdown
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/shutdownd
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: run/systemd/initctl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/initctl/fifo
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: run/systemd/private
+# owner: root
+# group: root
+user::rwx
+group::rwx
+other::rwx
+
+# file: run/systemd/generator.late
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/generator.late/network.service
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/systemd/generator.late/runlevel5.target.wants
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/generator.late/runlevel4.target.wants
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/generator.late/runlevel3.target.wants
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/generator.late/runlevel2.target.wants
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/generator.late/vmware-tools.service
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/systemd/generator.late/netconsole.service
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/systemd/generator
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/generator/data.mount
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/systemd/generator/swap.target.requires
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/generator/dev-mapper-centos\134x2dswap.swap
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/systemd/generator/boot.mount
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/systemd/generator/local-fs.target.requires
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/generator/-.mount
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/systemd/journal
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/journal/flushed
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/systemd/journal/kernel-seqnum
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/systemd/journal/socket
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: run/systemd/journal/stdout
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: run/systemd/ask-password
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/notify
+# owner: root
+# group: root
+user::rwx
+group::rwx
+other::rwx
+
+# file: run/systemd/inaccessible
+# owner: root
+# group: root
+user::---
+group::---
+other::---
+
+# file: run/systemd/system
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/system/session-170.scope.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: run/systemd/system/session-170.scope.d/50-SendSIGHUP.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/systemd/system/session-170.scope.d/50-After-systemd-user-sessions\134x2eservice.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/systemd/system/session-170.scope.d/50-After-systemd-logind\134x2eservice.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/systemd/system/session-170.scope.d/50-Description.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/systemd/system/session-170.scope.d/50-Slice.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: run/systemd/system/session-170.scope
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+

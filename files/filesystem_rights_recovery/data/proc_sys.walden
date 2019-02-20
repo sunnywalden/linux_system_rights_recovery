@@ -1,0 +1,7231 @@
+# file: proc/sys
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/abi
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/abi/vsyscall32
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/crypto
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/crypto/fips_enabled
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/debug
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/debug/exception-trace
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/debug/kprobes-optimization
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/dev
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/dev/cdrom
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/dev/cdrom/autoclose
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/dev/cdrom/autoeject
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/dev/cdrom/check_media
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/dev/cdrom/debug
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/dev/cdrom/info
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/dev/cdrom/lock
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/dev/hpet
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/dev/hpet/max-user-freq
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/dev/mac_hid
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/dev/mac_hid/mouse_button2_keycode
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/dev/mac_hid/mouse_button3_keycode
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/dev/mac_hid/mouse_button_emulation
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/dev/parport
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/dev/parport/default
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/dev/parport/default/spintime
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/dev/parport/default/timeslice
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/dev/parport/parport0
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/dev/parport/parport0/autoprobe
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/dev/parport/parport0/autoprobe0
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/dev/parport/parport0/autoprobe1
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/dev/parport/parport0/autoprobe2
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/dev/parport/parport0/autoprobe3
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/dev/parport/parport0/base-addr
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/dev/parport/parport0/devices
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/dev/parport/parport0/devices/active
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/dev/parport/parport0/dma
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/dev/parport/parport0/irq
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/dev/parport/parport0/modes
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/dev/parport/parport0/spintime
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/dev/raid
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/dev/raid/speed_limit_max
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/dev/raid/speed_limit_min
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/dev/scsi
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/dev/scsi/logging_level
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/fs/aio-max-nr
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/aio-nr
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/fs/binfmt_misc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: proc/sys/fs/binfmt_misc/register
+# owner: root
+# group: root
+user::-w-
+group::---
+other::---
+
+# file: proc/sys/fs/binfmt_misc/status
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/dentry-state
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/fs/dir-notify-enable
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/epoll
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/fs/epoll/max_user_watches
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/file-max
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/file-nr
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/fs/inode-nr
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/fs/inode-state
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/fs/inotify
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/fs/inotify/max_queued_events
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/inotify/max_user_instances
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/inotify/max_user_watches
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/lease-break-time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/leases-enable
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/mqueue
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/fs/mqueue/msg_default
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/mqueue/msg_max
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/mqueue/msgsize_default
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/mqueue/msgsize_max
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/mqueue/queues_max
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/nr_open
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/overflowgid
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/overflowuid
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/pipe-max-size
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/protected_hardlinks
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: proc/sys/fs/protected_symlinks
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: proc/sys/fs/quota
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/fs/quota/allocated_dquots
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/fs/quota/cache_hits
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/fs/quota/drops
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/fs/quota/free_dquots
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/fs/quota/lookups
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/fs/quota/reads
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/fs/quota/syncs
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/fs/quota/warnings
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/quota/writes
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/fs/suid_dumpable
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/xfs
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/fs/xfs/age_buffer_centisecs
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/xfs/error_level
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/xfs/filestream_centisecs
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/xfs/inherit_noatime
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/xfs/inherit_nodefrag
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/xfs/inherit_nodump
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/xfs/inherit_nosymlinks
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/xfs/inherit_sync
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/xfs/irix_sgid_inherit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/xfs/irix_symlink_mode
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/xfs/panic_mask
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/xfs/rotorstep
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/xfs/speculative_prealloc_lifetime
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/xfs/stats_clear
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/xfs/xfsbufd_centisecs
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/fs/xfs/xfssyncd_centisecs
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/acct
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/acpi_video_flags
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/auto_msgmni
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/blk_iopoll
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/bootloader_type
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/bootloader_version
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/cad_pid
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: proc/sys/kernel/cap_last_cap
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/compat-log
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/core_pattern
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/core_pipe_limit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/core_uses_pid
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/ctrl-alt-del
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/dmesg_restrict
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/domainname
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/ftrace_dump_on_oops
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/ftrace_enabled
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/hostname
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/hotplug
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/hung_task_check_count
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/hung_task_panic
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/hung_task_timeout_secs
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/hung_task_warnings
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/io_delay_type
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/kexec_load_disabled
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/keys
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/keys/gc_delay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/keys/maxbytes
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/keys/maxkeys
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/keys/persistent_keyring_expiry
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/keys/root_maxbytes
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/keys/root_maxkeys
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/kptr_restrict
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/kstack_depth_to_print
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/max_lock_depth
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/modprobe
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/modules_disabled
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/msg_next_id
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/msgmax
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/msgmnb
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/msgmni
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/ngroups_max
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/nmi_watchdog
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/ns_last_pid
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: proc/sys/kernel/numa_balancing
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/numa_balancing_scan_delay_ms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/numa_balancing_scan_period_max_ms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/numa_balancing_scan_period_min_ms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/numa_balancing_scan_size_mb
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/numa_balancing_settle_count
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/osrelease
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/ostype
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/overflowgid
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/overflowuid
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/panic
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/panic_on_io_nmi
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/panic_on_oops
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/panic_on_stackoverflow
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/panic_on_unrecovered_nmi
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/panic_on_warn
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/perf_cpu_time_max_percent
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/perf_event_max_sample_rate
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/perf_event_mlock_kb
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/perf_event_paranoid
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/pid_max
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/poweroff_cmd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/print-fatal-signals
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/printk
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/printk_delay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/printk_ratelimit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/printk_ratelimit_burst
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/pty
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/pty/max
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/pty/nr
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/pty/reserve
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/random
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/random/boot_id
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/random/entropy_avail
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/random/poolsize
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/random/read_wakeup_threshold
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/random/uuid
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/random/write_wakeup_threshold
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/randomize_va_space
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/real-root-dev
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_autogroup_enabled
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_cfs_bandwidth_slice_us
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_child_runs_first
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu0
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain0
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain0/busy_factor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain0/busy_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain0/cache_nice_tries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain0/flags
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain0/forkexec_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain0/idle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain0/imbalance_pct
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain0/max_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain0/min_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain0/name
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain0/newidle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain0/wake_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain1
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain1/busy_factor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain1/busy_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain1/cache_nice_tries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain1/flags
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain1/forkexec_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain1/idle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain1/imbalance_pct
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain1/max_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain1/min_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain1/name
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain1/newidle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu0/domain1/wake_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain0
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain0/busy_factor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain0/busy_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain0/cache_nice_tries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain0/flags
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain0/forkexec_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain0/idle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain0/imbalance_pct
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain0/max_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain0/min_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain0/name
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain0/newidle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain0/wake_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain1
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain1/busy_factor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain1/busy_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain1/cache_nice_tries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain1/flags
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain1/forkexec_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain1/idle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain1/imbalance_pct
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain1/max_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain1/min_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain1/name
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain1/newidle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu1/domain1/wake_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain0
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain0/busy_factor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain0/busy_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain0/cache_nice_tries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain0/flags
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain0/forkexec_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain0/idle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain0/imbalance_pct
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain0/max_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain0/min_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain0/name
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain0/newidle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain0/wake_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain1
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain1/busy_factor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain1/busy_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain1/cache_nice_tries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain1/flags
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain1/forkexec_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain1/idle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain1/imbalance_pct
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain1/max_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain1/min_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain1/name
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain1/newidle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu2/domain1/wake_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain0
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain0/busy_factor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain0/busy_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain0/cache_nice_tries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain0/flags
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain0/forkexec_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain0/idle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain0/imbalance_pct
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain0/max_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain0/min_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain0/name
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain0/newidle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain0/wake_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain1
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain1/busy_factor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain1/busy_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain1/cache_nice_tries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain1/flags
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain1/forkexec_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain1/idle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain1/imbalance_pct
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain1/max_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain1/min_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain1/name
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain1/newidle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu3/domain1/wake_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain0
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain0/busy_factor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain0/busy_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain0/cache_nice_tries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain0/flags
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain0/forkexec_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain0/idle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain0/imbalance_pct
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain0/max_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain0/min_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain0/name
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain0/newidle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain0/wake_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain1
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain1/busy_factor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain1/busy_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain1/cache_nice_tries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain1/flags
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain1/forkexec_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain1/idle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain1/imbalance_pct
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain1/max_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain1/min_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain1/name
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain1/newidle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu4/domain1/wake_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain0
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain0/busy_factor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain0/busy_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain0/cache_nice_tries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain0/flags
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain0/forkexec_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain0/idle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain0/imbalance_pct
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain0/max_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain0/min_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain0/name
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain0/newidle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain0/wake_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain1
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain1/busy_factor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain1/busy_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain1/cache_nice_tries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain1/flags
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain1/forkexec_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain1/idle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain1/imbalance_pct
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain1/max_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain1/min_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain1/name
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain1/newidle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu5/domain1/wake_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain0
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain0/busy_factor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain0/busy_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain0/cache_nice_tries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain0/flags
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain0/forkexec_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain0/idle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain0/imbalance_pct
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain0/max_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain0/min_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain0/name
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain0/newidle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain0/wake_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain1
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain1/busy_factor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain1/busy_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain1/cache_nice_tries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain1/flags
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain1/forkexec_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain1/idle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain1/imbalance_pct
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain1/max_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain1/min_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain1/name
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain1/newidle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu6/domain1/wake_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain0
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain0/busy_factor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain0/busy_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain0/cache_nice_tries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain0/flags
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain0/forkexec_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain0/idle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain0/imbalance_pct
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain0/max_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain0/min_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain0/name
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain0/newidle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain0/wake_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain1
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain1/busy_factor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain1/busy_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain1/cache_nice_tries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain1/flags
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain1/forkexec_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain1/idle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain1/imbalance_pct
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain1/max_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain1/min_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain1/name
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain1/newidle_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_domain/cpu7/domain1/wake_idx
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_latency_ns
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_migration_cost_ns
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_min_granularity_ns
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_nr_migrate
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_rr_timeslice_ms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_rt_period_us
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_rt_runtime_us
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_shares_window_ns
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_time_avg_ms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_tunable_scaling
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sched_wakeup_granularity_ns
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sem
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sem_next_id
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/shm_next_id
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/shm_rmid_forced
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/shmall
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/shmmax
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/shmmni
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/softlockup_all_cpu_backtrace
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/softlockup_panic
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/stack_tracer_enabled
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/sysrq
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/tainted
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/threads-max
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/timer_migration
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/traceoff_on_warning
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/unknown_nmi_panic
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/usermodehelper
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/kernel/usermodehelper/bset
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: proc/sys/kernel/usermodehelper/inheritable
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: proc/sys/kernel/version
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/kernel/watchdog
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/kernel/watchdog_thresh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/core
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/core/bpf_jit_enable
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/busy_poll
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/busy_read
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/default_qdisc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/dev_weight
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/message_burst
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/message_cost
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/netdev_budget
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/netdev_max_backlog
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/netdev_rss_key
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/net/core/netdev_tstamp_prequeue
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/optmem_max
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/rmem_default
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/rmem_max
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/rps_sock_flow_entries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/somaxconn
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/warnings
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/wmem_default
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/wmem_max
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/xfrm_acq_expires
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/xfrm_aevent_etime
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/xfrm_aevent_rseqth
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/core/xfrm_larval_drop
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv4/cipso_cache_bucket_size
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/cipso_cache_enable
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/cipso_rbm_optfmt
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/cipso_rbm_strictvalid
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv4/conf/all
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv4/conf/all/accept_local
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/accept_redirects
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/accept_source_route
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/arp_accept
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/arp_announce
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/arp_filter
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/arp_ignore
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/arp_notify
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/bootp_relay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/disable_policy
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/disable_xfrm
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/force_igmp_version
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/forwarding
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/log_martians
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/mc_forwarding
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/medium_id
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/promote_secondaries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/proxy_arp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/proxy_arp_pvlan
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/route_localnet
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/rp_filter
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/secure_redirects
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/send_redirects
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/shared_media
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/src_valid_mark
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/all/tag
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv4/conf/default/accept_local
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/accept_redirects
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/accept_source_route
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/arp_accept
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/arp_announce
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/arp_filter
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/arp_ignore
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/arp_notify
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/bootp_relay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/disable_policy
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/disable_xfrm
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/force_igmp_version
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/forwarding
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/log_martians
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/mc_forwarding
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/medium_id
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/promote_secondaries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/proxy_arp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/proxy_arp_pvlan
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/route_localnet
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/rp_filter
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/secure_redirects
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/send_redirects
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/shared_media
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/src_valid_mark
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/default/tag
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv4/conf/ens160/accept_local
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/accept_redirects
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/accept_source_route
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/arp_accept
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/arp_announce
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/arp_filter
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/arp_ignore
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/arp_notify
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/bootp_relay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/disable_policy
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/disable_xfrm
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/force_igmp_version
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/forwarding
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/log_martians
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/mc_forwarding
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/medium_id
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/promote_secondaries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/proxy_arp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/proxy_arp_pvlan
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/route_localnet
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/rp_filter
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/secure_redirects
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/send_redirects
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/shared_media
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/src_valid_mark
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/ens160/tag
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv4/conf/lo/accept_local
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/accept_redirects
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/accept_source_route
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/arp_accept
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/arp_announce
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/arp_filter
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/arp_ignore
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/arp_notify
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/bootp_relay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/disable_policy
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/disable_xfrm
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/force_igmp_version
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/forwarding
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/log_martians
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/mc_forwarding
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/medium_id
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/promote_secondaries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/proxy_arp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/proxy_arp_pvlan
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/route_localnet
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/rp_filter
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/secure_redirects
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/send_redirects
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/shared_media
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/src_valid_mark
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/conf/lo/tag
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/icmp_echo_ignore_all
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/icmp_echo_ignore_broadcasts
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/icmp_errors_use_inbound_ifaddr
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/icmp_ignore_bogus_error_responses
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/icmp_ratelimit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/icmp_ratemask
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/igmp_max_memberships
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/igmp_max_msf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/igmp_qrv
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/inet_peer_maxttl
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/inet_peer_minttl
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/inet_peer_threshold
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/ip_default_ttl
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/ip_dynaddr
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/ip_early_demux
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/ip_forward
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/ip_forward_use_pmtu
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/ip_local_port_range
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/ip_local_reserved_ports
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/ip_no_pmtu_disc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/ip_nonlocal_bind
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/ipfrag_high_thresh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/ipfrag_low_thresh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/ipfrag_max_dist
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/ipfrag_secret_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/ipfrag_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv4/neigh/default
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv4/neigh/default/anycast_delay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/default/app_solicit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/default/base_reachable_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/default/base_reachable_time_ms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/default/delay_first_probe_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/default/gc_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/default/gc_stale_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/default/gc_thresh1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/default/gc_thresh2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/default/gc_thresh3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/default/locktime
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/default/mcast_solicit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/default/proxy_delay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/default/proxy_qlen
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/default/retrans_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/default/retrans_time_ms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/default/ucast_solicit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/default/unres_qlen
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/default/unres_qlen_bytes
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/ens160
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv4/neigh/ens160/anycast_delay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/ens160/app_solicit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/ens160/base_reachable_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/ens160/base_reachable_time_ms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/ens160/delay_first_probe_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/ens160/gc_stale_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/ens160/locktime
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/ens160/mcast_solicit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/ens160/proxy_delay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/ens160/proxy_qlen
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/ens160/retrans_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/ens160/retrans_time_ms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/ens160/ucast_solicit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/ens160/unres_qlen
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/ens160/unres_qlen_bytes
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/lo
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv4/neigh/lo/anycast_delay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/lo/app_solicit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/lo/base_reachable_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/lo/base_reachable_time_ms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/lo/delay_first_probe_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/lo/gc_stale_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/lo/locktime
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/lo/mcast_solicit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/lo/proxy_delay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/lo/proxy_qlen
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/lo/retrans_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/lo/retrans_time_ms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/lo/ucast_solicit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/lo/unres_qlen
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/neigh/lo/unres_qlen_bytes
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/ping_group_range
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/route
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv4/route/error_burst
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/route/error_cost
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/route/flush
+# owner: root
+# group: root
+user::-w-
+group::---
+other::---
+
+# file: proc/sys/net/ipv4/route/gc_elasticity
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/route/gc_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/route/gc_min_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/route/gc_min_interval_ms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/route/gc_thresh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/route/gc_timeout
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/route/max_size
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/route/min_adv_mss
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/route/min_pmtu
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/route/mtu_expires
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/route/redirect_load
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/route/redirect_number
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/route/redirect_silence
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_abort_on_overflow
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_adv_win_scale
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_allowed_congestion_control
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_app_win
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_autocorking
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_available_congestion_control
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_base_mss
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_challenge_ack_limit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_congestion_control
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_dsack
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_early_retrans
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_ecn
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_fack
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_fastopen
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_fastopen_key
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: proc/sys/net/ipv4/tcp_fin_timeout
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_frto
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_invalid_ratelimit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_keepalive_intvl
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_keepalive_probes
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_keepalive_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_limit_output_bytes
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_low_latency
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_max_orphans
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_max_ssthresh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_max_syn_backlog
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_max_tw_buckets
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_mem
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_min_tso_segs
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_moderate_rcvbuf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_mtu_probing
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_no_metrics_save
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_notsent_lowat
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_orphan_retries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_reordering
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_retrans_collapse
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_retries1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_retries2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_rfc1337
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_rmem
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_sack
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_slow_start_after_idle
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_stdurg
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_syn_retries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_synack_retries
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_syncookies
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_thin_dupack
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_thin_linear_timeouts
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_timestamps
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_tso_win_divisor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_tw_recycle
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_tw_reuse
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_window_scaling
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_wmem
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/tcp_workaround_signed_windows
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/udp_mem
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/udp_rmem_min
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/udp_wmem_min
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv4/xfrm4_gc_thresh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv6/bindv6only
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv6/conf/all
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv6/conf/all/accept_dad
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/accept_ra
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/accept_ra_defrtr
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/accept_ra_pinfo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/accept_ra_rt_info_max_plen
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/accept_ra_rtr_pref
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/accept_redirects
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/accept_source_route
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/autoconf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/dad_transmits
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/disable_ipv6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/force_mld_version
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/force_tllao
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/forwarding
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/hop_limit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/max_addresses
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/max_desync_factor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/mc_forwarding
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/mldv1_unsolicited_report_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/mldv2_unsolicited_report_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/mtu
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/ndisc_notify
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/optimistic_dad
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/proxy_ndp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/regen_max_retry
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/router_probe_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/router_solicitation_delay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/router_solicitation_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/router_solicitations
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/temp_prefered_lft
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/temp_valid_lft
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/all/use_tempaddr
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv6/conf/default/accept_dad
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/accept_ra
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/accept_ra_defrtr
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/accept_ra_pinfo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/accept_ra_rt_info_max_plen
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/accept_ra_rtr_pref
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/accept_redirects
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/accept_source_route
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/autoconf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/dad_transmits
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/disable_ipv6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/force_mld_version
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/force_tllao
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/forwarding
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/hop_limit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/max_addresses
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/max_desync_factor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/mc_forwarding
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/mldv1_unsolicited_report_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/mldv2_unsolicited_report_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/mtu
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/ndisc_notify
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/optimistic_dad
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/proxy_ndp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/regen_max_retry
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/router_probe_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/router_solicitation_delay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/router_solicitation_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/router_solicitations
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/temp_prefered_lft
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/temp_valid_lft
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/default/use_tempaddr
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv6/conf/ens160/accept_dad
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/accept_ra
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/accept_ra_defrtr
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/accept_ra_pinfo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/accept_ra_rt_info_max_plen
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/accept_ra_rtr_pref
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/accept_redirects
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/accept_source_route
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/autoconf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/dad_transmits
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/disable_ipv6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/force_mld_version
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/force_tllao
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/forwarding
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/hop_limit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/max_addresses
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/max_desync_factor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/mc_forwarding
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/mldv1_unsolicited_report_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/mldv2_unsolicited_report_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/mtu
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/ndisc_notify
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/optimistic_dad
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/proxy_ndp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/regen_max_retry
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/router_probe_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/router_solicitation_delay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/router_solicitation_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/router_solicitations
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/temp_prefered_lft
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/temp_valid_lft
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/ens160/use_tempaddr
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv6/conf/lo/accept_dad
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/accept_ra
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/accept_ra_defrtr
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/accept_ra_pinfo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/accept_ra_rt_info_max_plen
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/accept_ra_rtr_pref
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/accept_redirects
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/accept_source_route
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/autoconf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/dad_transmits
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/disable_ipv6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/force_mld_version
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/force_tllao
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/forwarding
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/hop_limit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/max_addresses
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/max_desync_factor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/mc_forwarding
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/mldv1_unsolicited_report_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/mldv2_unsolicited_report_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/mtu
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/ndisc_notify
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/optimistic_dad
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/proxy_ndp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/regen_max_retry
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/router_probe_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/router_solicitation_delay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/router_solicitation_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/router_solicitations
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/temp_prefered_lft
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/temp_valid_lft
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/conf/lo/use_tempaddr
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/icmp
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv6/icmp/ratelimit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/ip6frag_high_thresh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/ip6frag_low_thresh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/ip6frag_secret_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/ip6frag_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/mld_max_msf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/mld_qrv
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv6/neigh/default
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv6/neigh/default/anycast_delay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/default/app_solicit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/default/base_reachable_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/default/base_reachable_time_ms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/default/delay_first_probe_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/default/gc_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/default/gc_stale_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/default/gc_thresh1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/default/gc_thresh2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/default/gc_thresh3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/default/locktime
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/default/mcast_solicit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/default/proxy_delay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/default/proxy_qlen
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/default/retrans_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/default/retrans_time_ms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/default/ucast_solicit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/default/unres_qlen
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/default/unres_qlen_bytes
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/ens160
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv6/neigh/ens160/anycast_delay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/ens160/app_solicit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/ens160/base_reachable_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/ens160/base_reachable_time_ms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/ens160/delay_first_probe_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/ens160/gc_stale_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/ens160/locktime
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/ens160/mcast_solicit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/ens160/proxy_delay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/ens160/proxy_qlen
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/ens160/retrans_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/ens160/retrans_time_ms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/ens160/ucast_solicit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/ens160/unres_qlen
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/ens160/unres_qlen_bytes
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/lo
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv6/neigh/lo/anycast_delay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/lo/app_solicit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/lo/base_reachable_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/lo/base_reachable_time_ms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/lo/delay_first_probe_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/lo/gc_stale_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/lo/locktime
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/lo/mcast_solicit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/lo/proxy_delay
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/lo/proxy_qlen
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/lo/retrans_time
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/lo/retrans_time_ms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/lo/ucast_solicit
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/lo/unres_qlen
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/neigh/lo/unres_qlen_bytes
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/route
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/ipv6/route/flush
+# owner: root
+# group: root
+user::-w-
+group::---
+other::---
+
+# file: proc/sys/net/ipv6/route/gc_elasticity
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/route/gc_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/route/gc_min_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/route/gc_min_interval_ms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/route/gc_thresh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/route/gc_timeout
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/route/max_size
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/route/min_adv_mss
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/route/mtu_expires
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/ipv6/xfrm6_gc_thresh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/netfilter/nf_conntrack_acct
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_buckets
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_checksum
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_count
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_events
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_events_retry_timeout
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_expect_max
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_generic_timeout
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_helper
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_icmp_timeout
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_log_invalid
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_max
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_tcp_be_liberal
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_tcp_loose
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_tcp_max_retrans
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_tcp_timeout_close
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_tcp_timeout_close_wait
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_tcp_timeout_established
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_tcp_timeout_fin_wait
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_tcp_timeout_last_ack
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_tcp_timeout_max_retrans
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_tcp_timeout_syn_recv
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_tcp_timeout_syn_sent
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_tcp_timeout_time_wait
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_tcp_timeout_unacknowledged
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_timestamp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_udp_timeout
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_conntrack_udp_timeout_stream
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_log
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/netfilter/nf_log/0
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_log/1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_log/10
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_log/11
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_log/12
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_log/2
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_log/3
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_log/4
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_log/5
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_log/6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_log/7
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_log/8
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/netfilter/nf_log/9
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/nf_conntrack_max
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/net/unix
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/net/unix/max_dgram_qlen
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sys/vm/admin_reserve_kbytes
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/block_dump
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/compact_memory
+# owner: root
+# group: root
+user::-w-
+group::---
+other::---
+
+# file: proc/sys/vm/dirty_background_bytes
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/dirty_background_ratio
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/dirty_bytes
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/dirty_expire_centisecs
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/dirty_ratio
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/dirty_writeback_centisecs
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/drop_caches
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/extfrag_threshold
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/hugepages_treat_as_movable
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/hugetlb_shm_group
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/laptop_mode
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/legacy_va_layout
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/lowmem_reserve_ratio
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/max_map_count
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/memory_failure_early_kill
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/memory_failure_recovery
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/min_free_kbytes
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/min_slab_ratio
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/min_unmapped_ratio
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/mmap_min_addr
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/nr_hugepages
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/nr_hugepages_mempolicy
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/nr_overcommit_hugepages
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/nr_pdflush_threads
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sys/vm/numa_zonelist_order
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/oom_dump_tasks
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/oom_kill_allocating_task
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/overcommit_kbytes
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/overcommit_memory
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/overcommit_ratio
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/page-cluster
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/panic_on_oom
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/percpu_pagelist_fraction
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/stat_interval
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/swappiness
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/user_reserve_kbytes
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/vfs_cache_pressure
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: proc/sys/vm/zone_reclaim_mode
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+

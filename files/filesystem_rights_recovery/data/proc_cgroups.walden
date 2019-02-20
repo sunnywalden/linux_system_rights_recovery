@@ -1,0 +1,7 @@
+# file: proc/cgroups
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+

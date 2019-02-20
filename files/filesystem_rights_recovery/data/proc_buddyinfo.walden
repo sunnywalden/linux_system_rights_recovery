@@ -1,0 +1,7 @@
+# file: proc/buddyinfo
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+

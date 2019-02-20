@@ -1,0 +1,91 @@
+# file: proc/fs
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/fs/ext4
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/fs/ext4/dm-2
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/fs/ext4/dm-2/mb_groups
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/fs/ext4/dm-2/options
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/fs/jbd2
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/fs/jbd2/dm-2-8
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/fs/jbd2/dm-2-8/info
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/fs/xfs
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/fs/xfs/xqm
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/fs/xfs/xqmstat
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/fs/xfs/stat
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/fs/nfsd
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+

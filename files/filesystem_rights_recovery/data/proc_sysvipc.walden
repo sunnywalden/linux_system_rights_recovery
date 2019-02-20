@@ -1,0 +1,28 @@
+# file: proc/sysvipc
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/sysvipc/shm
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sysvipc/msg
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/sysvipc/sem
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+

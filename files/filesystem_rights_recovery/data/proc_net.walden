@@ -1,0 +1,427 @@
+# file: proc/net
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/net/nf_conntrack
+# owner: root
+# group: root
+user::r--
+group::r--
+other::---
+
+# file: proc/net/nf_conntrack_expect
+# owner: root
+# group: root
+user::r--
+group::r--
+other::---
+
+# file: proc/net/ip_tables_targets
+# owner: root
+# group: root
+user::r--
+group::r--
+other::---
+
+# file: proc/net/ip_tables_matches
+# owner: root
+# group: root
+user::r--
+group::r--
+other::---
+
+# file: proc/net/ip_tables_names
+# owner: root
+# group: root
+user::r--
+group::r--
+other::---
+
+# file: proc/net/packet
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/ip6_flowlabel
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/rt6_stats
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/ipv6_route
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/if_inet6
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/dev_snmp6
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/net/dev_snmp6/ens160
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/dev_snmp6/lo
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/snmp6
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/sockstat6
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/udplite6
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/raw6
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/mcfilter6
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/igmp6
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/ip6_mr_cache
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/ip6_mr_vif
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/anycast6
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/tcp6
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/udp6
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/unix
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/snmp
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/netstat
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/sockstat
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/icmp
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/udp
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/tcp
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/raw
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/ip_mr_cache
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/ip_mr_vif
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/udplite
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/mcfilter
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/igmp
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/xfrm_stat
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/rt_acct
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/rt_cache
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/route
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/fib_triestat
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/fib_trie
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/arp
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/psched
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/dev_mcast
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/wireless
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/ptype
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/softnet_stat
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/dev
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/protocols
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/connector
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/netlink
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/netfilter
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/net/netfilter/nf_log
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/stat
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/net/stat/nf_conntrack
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/stat/ndisc_cache
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/stat/rt_cache
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: proc/net/stat/arp_cache
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+

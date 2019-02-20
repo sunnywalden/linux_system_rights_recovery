@@ -1,0 +1,7 @@
+# file: proc/sched_debug
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+

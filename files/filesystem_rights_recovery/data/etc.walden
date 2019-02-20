@@ -1,0 +1,7819 @@
+# file: etc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/crypttab
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/resolv.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pki
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/rpm-gpg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-Debug-7
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-Testing-7
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pki/tls
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/tls/certs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/tls/certs/Makefile
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pki/tls/certs/make-dummy-cert
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/tls/certs/renew-dummy-cert
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/tls/misc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/tls/misc/CA
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/tls/misc/c_hash
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/tls/misc/c_info
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/tls/misc/c_issuer
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/tls/misc/c_name
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/tls/openssl.cnf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pki/tls/private
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/ca-trust
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/ca-trust/README
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pki/ca-trust/ca-legacy.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pki/ca-trust/extracted
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/ca-trust/extracted/README
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pki/ca-trust/extracted/java
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/ca-trust/extracted/java/README
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pki/ca-trust/extracted/java/cacerts
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: etc/pki/ca-trust/extracted/openssl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/ca-trust/extracted/openssl/README
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pki/ca-trust/extracted/openssl/ca-bundle.trust.crt
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: etc/pki/ca-trust/extracted/pem
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/ca-trust/extracted/pem/README
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: etc/pki/ca-trust/extracted/pem/email-ca-bundle.pem
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: etc/pki/ca-trust/extracted/pem/objsign-ca-bundle.pem
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: etc/pki/ca-trust/source
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/ca-trust/source/README
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pki/ca-trust/source/anchors
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/ca-trust/source/blacklist
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/java
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/nssdb
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/nssdb/cert8.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pki/nssdb/cert9.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pki/nssdb/key3.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pki/nssdb/key4.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pki/nssdb/pkcs11.txt
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pki/nssdb/secmod.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pki/CA
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/CA/certs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/CA/crl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/CA/newcerts
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pki/CA/private
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: etc/pki/rsyslog
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: etc/rpm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/rpm/macros.dist
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/rpm/macros.perl
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/yum.repos.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/yum.repos.d/CentOS7-Base-163.repo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/yum.repos.d/epel-testing.repo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/yum.repos.d/epel.repo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/yum
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/yum/vars
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/yum/vars/infra
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/yum/pluginconf.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/yum/pluginconf.d/fastestmirror.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/yum/pluginconf.d/langpacks.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/yum/fssnap.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/yum/protected.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/yum/protected.d/systemd.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/yum/version-groups.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/yum/yum-cron-hourly.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/yum/yum-cron.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/DIR_COLORS.256color
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/centos-release
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/DIR_COLORS
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/rsyslog.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/centos-release-upstream
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/dracut.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/issue
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/depmod.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/depmod.d/dist.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/issue.net
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/dracut.conf.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/dracut.conf.d/vmware-tools.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/os-release
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/gnupg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/lvm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/lvm/archive
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: etc/lvm/archive/centos_00000-753561954.vg
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/lvm/archive/centos_00001-855671164.vg
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/lvm/archive/centos_00002-510594150.vg
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/lvm/archive/centos_00003-1334286131.vg
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/lvm/backup
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: etc/lvm/backup/centos
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/lvm/cache
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: etc/lvm/lvm.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/lvm/lvmlocal.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/lvm/profile
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/lvm/profile/cache-mq.profile
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: etc/lvm/profile/cache-smq.profile
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: etc/lvm/profile/command_profile_template.profile
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: etc/lvm/profile/metadata_profile_template.profile
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: etc/lvm/profile/thin-generic.profile
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: etc/lvm/profile/thin-performance.profile
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: etc/cron.hourly
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/cron.hourly/0yum-hourly.cron
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/cron.hourly/0anacron
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/ntp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/ntp/keys
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/ntp/step-tickers
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/ntp/crypto
+# owner: root
+# group: ntp
+user::rwx
+group::r-x
+other::---
+
+# file: etc/ntp/crypto/pw
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/dbus-1
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/dbus-1/system.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/dbus-1/system.d/org.freedesktop.hostname1.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/dbus-1/system.d/org.freedesktop.locale1.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/dbus-1/system.d/org.freedesktop.login1.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/dbus-1/system.d/org.freedesktop.machine1.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/dbus-1/system.d/org.freedesktop.systemd1.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/dbus-1/system.d/org.freedesktop.timedate1.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/dbus-1/system.d/wpa_supplicant.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/dbus-1/system.d/org.freedesktop.PolicyKit1.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/dbus-1/system.d/dnsmasq.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/dbus-1/system.d/nm-avahi-autoipd.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/dbus-1/system.d/nm-dispatcher.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/dbus-1/system.d/nm-ifcfg-rh.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/dbus-1/system.d/org.freedesktop.NetworkManager.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/dbus-1/system.d/com.redhat.tuned.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/dbus-1/session.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/dbus-1/session.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/dbus-1/system.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/vimrc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/system-release-cpe
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/modprobe.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/aliases
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/shadow-
+# owner: root
+# group: root
+user::---
+group::---
+other::---
+
+# file: etc/bashrc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/binfmt.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/csh.cshrc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/modules-load.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/csh.login
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/systemd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/systemd/bootchart.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/systemd/coredump.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/systemd/journald.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/systemd/logind.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/systemd/system
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/systemd/system/multi-user.target.wants
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/systemd/system/getty.target.wants
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/systemd/system/default.target.wants
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/systemd/system/system-update.target.wants
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/systemd/system/sockets.target.wants
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/systemd/system/sysinit.target.wants
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/systemd/system/basic.target.wants
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/systemd/system/collector-sidecar.service
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/systemd/system.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/systemd/user
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/systemd/user.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/environment
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/exports
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysctl.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/filesystems
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/rsyslog.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/rsyslog.d/listen.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/group
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/udev
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/udev/rules.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/udev/rules.d/99-vmware-scsi-udev.rules
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/udev/udev.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/udev/hwdb.bin
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: etc/gshadow
+# owner: root
+# group: root
+user::---
+group::---
+other::---
+
+# file: etc/machine-id
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: etc/host.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/hosts
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/inittab
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/hosts.allow
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/nsswitch.conf.bak
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/hosts.deny
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/adjtime
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/inputrc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/audisp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: etc/audisp/audispd.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: etc/audisp/plugins.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: etc/audisp/plugins.d/af_unix.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: etc/audisp/plugins.d/syslog.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: etc/motd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/networks
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/passwd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/wpa_supplicant
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/wpa_supplicant/wpa_supplicant.conf
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/printcap
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/ppp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/ppp/ip-down
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/ppp/ip-down.ipv6to4
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/ppp/ip-up
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/ppp/ip-up.ipv6to4
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/ppp/ipv6-down
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/ppp/ipv6-up
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/ppp/peers
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/ppp/chap-secrets
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/ppp/eaptls-client
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/ppp/eaptls-server
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/ppp/options
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/ppp/pap-secrets
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/profile
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/fstab
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/profile.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/profile.d/colorgrep.csh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/profile.d/colorgrep.sh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/profile.d/which2.csh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/profile.d/which2.sh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/profile.d/less.csh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/profile.d/less.sh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/profile.d/colorls.csh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/profile.d/colorls.sh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/profile.d/256term.csh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/profile.d/256term.sh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/profile.d/lang.csh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/profile.d/lang.sh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/profile.d/vim.csh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/profile.d/vim.sh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/profile.d/bash_completion.sh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/rwtab
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/protocols
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/rwtab.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/securetty
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/statetab
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/services
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/statetab.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/shadow
+# owner: root
+# group: root
+user::---
+group::---
+other::---
+
+# file: etc/sysctl.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/shells
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/X11
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/X11/applnk
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/X11/fontpath.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/X11/xorg.conf.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/X11/xorg.conf.d/00-keyboard.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/bash_completion.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/bash_completion.d/yum
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/bash_completion.d/iprutils
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/bash_completion.d/git
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/bash_completion.d/redefine_filedir
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/opt
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pm/config.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pm/power.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pm/sleep.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/skel
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/skel/.bash_logout
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/skel/.bash_profile
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/skel/.bashrc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/selinux
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/ip6tables-config
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/sysconfig/cbq
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/cbq/avpkt
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/cbq/cbq-0000.example
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/rdisc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/console
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/init
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/modules
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/netconsole
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/network-scripts
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifcfg-lo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/network-scripts/ifdown-bnep
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifdown-eth
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifdown-ippp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifdown-ipv6
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifdown-post
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifdown-ppp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifdown-routes
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifdown-sit
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifdown-tunnel
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifup-aliases
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifup-bnep
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifup-eth
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifup-ippp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifup-ipv6
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifup-plip
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifup-plusb
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifup-post
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifup-ppp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifup-routes
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifup-sit
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifup-tunnel
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/ifup-wireless
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/init.ipv6-global
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sysconfig/network-scripts/network-functions
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/network-scripts/network-functions-ipv6
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/network-scripts/ifcfg-ens160
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/readonly-root
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/wpa_supplicant
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/crond
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/sysconfig/run-parts
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/kdump
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/irqbalance
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/rsyslog
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/man-db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/cpupower
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/sshd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: etc/sysconfig/authconfig
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/kernel
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/ntpdate
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/rsyncd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/sysstat
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/sysstat.ioconf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/ntpd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sysconfig/ip6tables
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/sysconfig/iptables
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/sysconfig/iptables-config
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/sysconfig/network
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/xdg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/xdg/autostart
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/xdg/systemd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/xinetd.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/terminfo
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/prelink.conf.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/prelink.conf.d/nss-softokn-prelink.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/prelink.conf.d/fipscheck.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/prelink.conf.d/grub2.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/prelink.conf.d/vmware-tools-prelink.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/default
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/default/nss
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/default/useradd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/default/grub
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/anacrontab
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/ld.so.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/ld.so.conf.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/ld.so.conf.d/mariadb-x86_64.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/ld.so.conf.d/kernel-3.10.0-327.el7.x86_64.conf
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+
+# file: etc/ld.so.conf.d/vmware-tools-libraries.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/iproute2
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/iproute2/ematch_map
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/iproute2/group
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/iproute2/rt_dsfield
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/iproute2/rt_protos
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/iproute2/rt_realms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/iproute2/rt_scopes
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/iproute2/rt_tables
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/nsswitch.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/NetworkManager
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/NetworkManager/dispatcher.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/NetworkManager/dispatcher.d/00-netreport
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/NetworkManager/dispatcher.d/11-dhclient
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/NetworkManager/dispatcher.d/pre-down.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/NetworkManager/dispatcher.d/pre-up.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/NetworkManager/NetworkManager.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/NetworkManager/VPN
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/NetworkManager/conf.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/NetworkManager/conf.d/10-ibft-plugin.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/NetworkManager/dnsmasq.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/NetworkManager/system-connections
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/rpc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/man_db.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/ld.so.cache
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/yum.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/libaudit.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: etc/popt.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/alternatives
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/chkconfig.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/cron.weekly
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/rc.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/rc.d/init.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/rc.d/init.d/README
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/rc.d/init.d/functions
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/rc.d/init.d/netconsole
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/rc.d/init.d/network
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/rc.d/init.d/vmware-tools
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/rc.d/rc0.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/rc.d/rc1.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/rc.d/rc2.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/rc.d/rc3.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/rc.d/rc4.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/rc.d/rc5.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/rc.d/rc6.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/rc.d/rc.local
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/cron.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/cron.d/0hourly
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/cron.d/sysstat
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/cron.deny
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/cron.monthly
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/polkit-1
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/polkit-1/rules.d
+# owner: polkitd
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: etc/polkit-1/rules.d/50-default.rules
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/polkit-1/rules.d/49-polkit-pkla-compat.rules
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/polkit-1/localauthority
+# owner: root
+# group: polkitd
+user::rwx
+group::r-x
+other::---
+
+# file: etc/polkit-1/localauthority/10-vendor.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/polkit-1/localauthority/20-org.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/polkit-1/localauthority/30-site.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/polkit-1/localauthority/50-local.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/polkit-1/localauthority/90-mandatory.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/polkit-1/localauthority.conf.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/dnsmasq.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/crontab
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/grub.d
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: etc/grub.d/00_header
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/grub.d/01_users
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/grub.d/10_linux
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/grub.d/20_linux_xen
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/grub.d/20_ppc_terminfo
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/grub.d/30_os-prober
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/grub.d/40_custom
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/grub.d/41_custom
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/grub.d/README
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/grub.d/00_tuned
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/dhcp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: etc/dhcp/dhclient.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/dhcp/dhclient.d/ntp.sh
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/GREP_COLORS
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/gcrypt
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pkcs11
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pkcs11/modules
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/dnsmasq.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/magic
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sasl2
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/sasl2/smtpd.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/groff
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/groff/site-font
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/groff/site-tmac
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/groff/site-tmac/man.local
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/groff/site-tmac/mdoc.local
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/libnl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/libnl/classid
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/libnl/pktloc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/virc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/selinux/semanage.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/config
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/selinux/targeted/.policy.sha512
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/booleans.subs_dist
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/selinux/targeted/contexts/customizable_types
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/dbus_contexts
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/default_contexts
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/default_type
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/failsafe_context
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/files
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/selinux/targeted/contexts/files/file_contexts
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/files/file_contexts.homedirs
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/files/file_contexts.local
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/files/file_contexts.subs
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/files/file_contexts.subs_dist
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/files/media
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/initrc_context
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/lxc_contexts
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/removable_context
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/securetty_types
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/sepgsql_contexts
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/systemd_contexts
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/userhelper_context
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/users
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/selinux/targeted/contexts/users/guest_u
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/users/root
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/users/staff_u
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/users/sysadm_u
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/users/unconfined_u
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/users/user_u
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/users/xguest_u
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/virtual_domain_context
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/virtual_image_context
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/contexts/x_contexts
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/logins
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/selinux/targeted/modules
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/selinux/targeted/modules/active
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: etc/selinux/targeted/modules/active/base.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/commit_num
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/selinux/targeted/modules/active/file_contexts
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/selinux/targeted/modules/active/file_contexts.homedirs
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/file_contexts.template
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/selinux/targeted/modules/active/homedir_template
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/selinux/targeted/modules/active/modules
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: etc/selinux/targeted/modules/active/modules/ddclient.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/abrt.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/dcc.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/accountsd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/denyhosts.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/acct.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/devicekit.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/afs.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/dhcp.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/aiccu.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/dictd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/aide.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/dmesg.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/ajaxterm.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/dirsrv-admin.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/alsa.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/dirsrv.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/amanda.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/dmidecode.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/amtu.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/dnsmasq.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/anaconda.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/dnssec.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/antivirus.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/dovecot.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/apache.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/drbd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/apcupsd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/dspam.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/apm.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/conman.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/nx.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/application.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/entropyd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/arpwatch.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/exim.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/asterisk.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/fail2ban.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/auditadm.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/condor.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/su.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/authconfig.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/fcoe.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/authlogin.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/fetchmail.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/automount.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/finger.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/avahi.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/firewalld.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/awstats.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/fprintd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/bacula.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/firewallgui.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/bcfg2.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/firstboot.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/bind.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/freeipmi.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/bitlbee.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/freqset.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/blueman.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/fstools.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/bluetooth.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/ftp.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/boinc.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/consolekit.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/bootloader.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/games.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/brctl.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/gdomap.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/brltty.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/gear.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/bugzilla.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/geoclue.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/bumblebee.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/couchdb.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/cachefilesd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/getty.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/calamaris.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/daemontools.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/callweaver.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/git.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/canna.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/gitosis.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/ccs.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/glance.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/cdrecord.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/courier.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/certmaster.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/dbadm.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/certmonger.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/glusterd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/certwatch.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/gnome.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/cfengine.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/gpg.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/cgdcbxd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/gpm.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/cgroup.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/gpsd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/chrome.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/gssproxy.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/chronyd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/guest.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/cinder.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/hddtemp.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/cipe.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/hostname.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/clock.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/hypervkvp.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/clogd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/icecast.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/cloudform.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/inetd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/cmirrord.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/init.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/cobbler.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/inn.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/cockpit.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/iodine.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/collectd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/iotop.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/colord.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/ipa.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/comsat.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/cpucontrol.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/dbskk.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/cpufreqselector.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/ipsec.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/cpuplug.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/iptables.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/cron.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/irc.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/ctdb.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/isns.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/cups.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/irqbalance.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/cvs.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/iscsi.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/cyphesis.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/jabber.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/cyrus.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/journalctl.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/dbus.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/jetty.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/jockey.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/openct.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/kdump.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/openhpid.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/kdumpgui.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/numad.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/keepalived.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/openshift-origin.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/kerberos.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/openshift.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/keyboardd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/opensm.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/keystone.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/openvpn.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/kismet.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/openvswitch.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/kmscon.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/openwsman.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/ksmtuned.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/oracleasm.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/ktalk.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/osad.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/l2tp.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/pads.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/ldap.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/passenger.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/libraries.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/pcmcia.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/likewise.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/pcp.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/linuxptp.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/pcscd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/lircd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/pegasus.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/livecd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/permissivedomains.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/lldpad.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/pesign.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/loadkeys.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/ntp.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/locallogin.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/pingd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/lockdev.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/piranha.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/logadm.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/pkcs.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/logging.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/pki.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/logrotate.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/plymouthd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/logwatch.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/podsleuth.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/lpd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/policykit.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/lsm.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/polipo.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/lvm.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/portmap.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/mailman.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/nut.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/mailscanner.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/portreserve.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/man2html.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/postfix.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/mandb.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/postgresql.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/mcelog.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/postgrey.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/mediawiki.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/ppp.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/memcached.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/prelink.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/milter.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/prelude.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/minidlna.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/privoxy.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/minissdpd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/procmail.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/mip6d.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/mirrormanager.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/prosody.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/miscfiles.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/psad.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/mock.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/obex.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/modemmanager.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/ptchown.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/modutils.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/publicfile.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/mojomojo.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/pulseaudio.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/mon_statd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/puppet.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/mongodb.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/pwauth.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/motion.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/qmail.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/mount.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/qpid.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/mozilla.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/quantum.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/mpd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/quota.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/mplayer.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/rabbitmq.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/mrtg.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/radius.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/mta.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/radvd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/munin.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/raid.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/mysql.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/rasdaemon.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/mythtv.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/rdisc.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/nagios.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/readahead.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/namespace.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/realmd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/ncftool.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/redis.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/netlabel.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/remotelogin.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/netutils.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/oddjob.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/networkmanager.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/rhcs.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/ninfod.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/rhev.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/nis.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/rhgb.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/nova.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/rhnsd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/nscd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/rhsmcertd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/nsd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/ricci.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/nslcd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/rkhunter.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/ntop.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/rlogin.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/rngd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/roundup.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/rpc.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/rpcbind.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/rpm.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/rshd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/rssh.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/rsync.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/rtas.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/rtkit.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/rwho.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/samba.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/sambagui.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/sandboxX.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/sanlock.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/sasl.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/sblim.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/screen.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/secadm.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/sectoolm.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/selinuxutil.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/sendmail.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/sensord.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/setrans.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/setroubleshoot.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/seunshare.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/sge.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/shorewall.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/slocate.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/slpd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/smartmon.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/smokeping.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/smoltclient.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/smsd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/snapper.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/snmp.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/snort.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/sosreport.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/soundserver.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/spamassassin.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/speech-dispatcher.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/squid.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/ssh.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/sssd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/staff.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/stapserver.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/stunnel.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/sudo.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/svnserve.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/swift.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/sysadm.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/sysadm_secadm.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/sysnetwork.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/sysstat.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/systemd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/tcpd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/tcsd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/telepathy.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/telnet.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/tftp.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/tgtd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/thin.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/thumb.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/tmpreaper.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/tomcat.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/tor.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/tuned.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/tvtime.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/udev.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/ulogd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/uml.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/unconfined.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/unconfineduser.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/unlabelednet.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/unprivuser.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/updfstab.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/usbmodules.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/usbmuxd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/userdomain.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/userhelper.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/usermanage.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/usernetctl.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/uucp.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/uuidd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/varnishd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/vdagent.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/vhostmd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/virt.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/vlock.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/vmtools.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/vmware.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/vnstatd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/vpn.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/w3c.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/watchdog.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/wdmd.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/webadm.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/webalizer.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/wine.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/wireshark.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/xen.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/xguest.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/xserver.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/zabbix.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/zarafa.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/zebra.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/zoneminder.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/modules/zosremote.pp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/active/netfilter_contexts
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/selinux/targeted/modules/active/seusers.final
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/selinux/targeted/modules/active/users_extra
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/selinux/targeted/modules/semanage.read.LOCK
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/modules/semanage.trans.LOCK
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/policy
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/selinux/targeted/policy/policy.29
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/setrans.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/selinux/targeted/seusers
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/gss
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/gss/mech.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/plymouth
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/plymouth/plymouthd.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/krb5.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/libuser.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/audit
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: etc/audit/auditd.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: etc/audit/rules.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: etc/audit/rules.d/audit.rules
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: etc/audit/audit.rules
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: etc/audit/audit.rules.prev
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: etc/DIR_COLORS.lightbgcolor
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/ssl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/tcsd.conf
+# owner: tss
+# group: tss
+user::rw-
+group::---
+other::---
+
+# file: etc/login.defs
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/tmpfiles.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/python
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/python/cert-verification.cfg
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/pam.d/config-util
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/other
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/chfn
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/chsh
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/login
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/remote
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/runuser
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/runuser-l
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/su
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/su-l
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/systemd-user
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/polkit-1
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/crond
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/ppp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/vlock
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/smtp.postfix
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/sshd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/passwd
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/sudo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/sudo-i
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/system-auth-ac
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/postlogin-ac
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/password-auth-ac
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/fingerprint-auth-ac
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/smartcard-auth-ac
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/pam.d/screen
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/security
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/security/access.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/security/chroot.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/security/console.apps
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/security/console.handlers
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/security/console.perms
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/security/console.perms.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/security/group.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/security/limits.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/security/limits.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/security/limits.d/20-nproc.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/security/limits.d/90-nproc.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/security/namespace.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/security/namespace.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/security/namespace.init
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/security/opasswd
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/security/pam_env.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/security/sepermit.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/security/time.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/security/pwquality.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/tuned
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/tuned/active_profile
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/tuned/bootcmdline
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/tuned/tuned-main.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/.pwd.lock
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/my.cnf.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/my.cnf.d/mysql-clients.cnf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/my.cnf.d/client.cnf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/openldap
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/openldap/certs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/openldap/certs/password
+# owner: root
+# group: root
+user::r--
+group::---
+other::---
+
+# file: etc/openldap/certs/secmod.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/openldap/certs/cert8.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/openldap/certs/key3.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/openldap/ldap.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sestatus.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/postfix
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/postfix/access
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/postfix/canonical
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/postfix/generic
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/postfix/header_checks
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/postfix/main.cf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/postfix/master.cf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/postfix/relocated
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/postfix/transport
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/postfix/virtual
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/group-
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/gshadow-
+# owner: root
+# group: root
+user::---
+group::---
+other::---
+
+# file: etc/cron.daily
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/cron.daily/logrotate
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: etc/cron.daily/0yum-daily.cron
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/cron.daily/man-db.cron
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/passwd-
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/logrotate.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/logrotate.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/logrotate.d/yum
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/logrotate.d/wpa_supplicant
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/logrotate.d/ppp
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/logrotate.d/syslog
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/kdump.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/asound.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/my.cnf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/ssh
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/ssh/moduli
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/ssh/ssh_config
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/ssh/ssh_host_rsa_key
+# owner: root
+# group: ssh_keys
+user::rw-
+group::r--
+other::---
+
+# file: etc/ssh/ssh_host_rsa_key.pub
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/ssh/ssh_host_ecdsa_key
+# owner: root
+# group: ssh_keys
+user::rw-
+group::r--
+other::---
+
+# file: etc/ssh/ssh_host_ecdsa_key.pub
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/ssh/ssh_host_ed25519_key
+# owner: root
+# group: ssh_keys
+user::rw-
+group::r--
+other::---
+
+# file: etc/ssh/ssh_host_ed25519_key.pub
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/ssh/sshd_config
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: etc/avahi
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/avahi/avahi-autoipd.action
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/kernel
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/kernel/postinst.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/kernel/postinst.d/51-dracut-rescue-postinst.sh
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/makedumpfile.conf.sample
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/sudo-ldap.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: etc/sudo.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+# file: etc/sudoers
+# owner: root
+# group: root
+user::r--
+group::r--
+other::---
+
+# file: etc/sudoers.d
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: etc/e2fsck.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/mke2fs.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/vconsole.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/locale.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/hostname
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/.updated
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/aliases.db
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/wgetrc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/yum.repos.d-bak
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/yum.repos.d-bak/CentOS-CR.repo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/yum.repos.d-bak/CentOS-Base.repo.backup
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/yum.repos.d-bak/CentOS-Debuginfo.repo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/yum.repos.d-bak/CentOS-fasttrack.repo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/yum.repos.d-bak/CentOS-Sources.repo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/yum.repos.d-bak/CentOS-Vault.repo
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/rsyncd.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/ntp.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/mail.rc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/screenrc
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/graylog
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/graylog/collector-sidecar
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/graylog/collector-sidecar/collector_sidecar.yml
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::r--
+
+# file: etc/graylog/collector-sidecar/generated
+# owner: root
+# group: root
+user::rwx
+group::rwx
+other::r-x
+
+# file: etc/graylog/collector-sidecar/generated/filebeat.yml
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/graylog/collector-sidecar/collector-id
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/cloudmonitor
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/state
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/state/config
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/vmware-tools/locations
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/vmware-tools/messages
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/ja
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/ja/hgfsUsability.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/ja/vmtoolsd.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/ja/desktopEvents.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/ja/VGAuthLib.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/ja/VGAuthCli.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/ja/VGAuthService.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/ja/toolboxcmd.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/de
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/de/hgfsUsability.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/de/vmtoolsd.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/de/desktopEvents.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/de/VGAuthLib.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/de/VGAuthCli.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/de/VGAuthService.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/de/toolboxcmd.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/ko
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/ko/hgfsUsability.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/ko/vmtoolsd.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/ko/desktopEvents.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/ko/VGAuthLib.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/ko/VGAuthCli.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/ko/VGAuthService.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/ko/toolboxcmd.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/it
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/it/hgfsUsability.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/es
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/es/hgfsUsability.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/en
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/en/hgfsUsability.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/en/vmtoolsd.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/en/desktopEvents.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/en/VGAuthLib.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/en/VGAuthCli.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/en/VGAuthService.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/en/toolboxcmd.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/zh_TW
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/zh_TW/hgfsUsability.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/zh_TW/vmtoolsd.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/zh_TW/desktopEvents.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/zh_TW/VGAuthLib.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/zh_TW/VGAuthCli.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/zh_TW/VGAuthService.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/zh_TW/toolboxcmd.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/zh_CN
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/zh_CN/hgfsUsability.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/zh_CN/vmtoolsd.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/zh_CN/desktopEvents.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/zh_CN/VGAuthLib.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/zh_CN/VGAuthCli.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/zh_CN/VGAuthService.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/zh_CN/toolboxcmd.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/fr
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/fr/hgfsUsability.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/fr/vmtoolsd.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/fr/desktopEvents.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/fr/VGAuthLib.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/fr/VGAuthCli.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/fr/VGAuthService.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/messages/fr/toolboxcmd.vmsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/xsession-gdm.sh
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/xsession-xdm.pl
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/vmware-tools/resume-vm-default
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/vmware-tools
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/poweron-vm-default
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/vmware-user.desktop
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/vmware-tools/statechange.subr
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/vmware-tools/installer.sh
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/vmware-user.Xresources
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/vmware-tools/poweroff-vm-default
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/vmware-tools-libraries.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/vmware-tools/manifest.txt.shipped
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/vmware-tools/xsession-xdm.sh
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/scripts
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/scripts/vmware
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/scripts/vmware/network
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/vmware-tools-prelink.conf
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/vmware-tools/suspend-vm-default
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: etc/vmware-tools/config
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/vmware-tools/manifest.txt
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: etc/nsswitch.conf.rpmnew
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+

@@ -1,0 +1,7 @@
+# file: proc/sysrq-trigger
+# owner: root
+# group: root
+user::-w-
+group::---
+other::---
+

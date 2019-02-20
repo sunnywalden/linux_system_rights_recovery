@@ -1,0 +1,14 @@
+# file: proc/acpi
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: proc/acpi/wakeup
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+

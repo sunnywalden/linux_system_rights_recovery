@@ -1,0 +1,2302 @@
+# file: sbin
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: sbin/pam_timestamp_check
+# owner: root
+# group: root
+# flags: s--
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/build-locale-archive
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: sbin/chcpu
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ip
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/zdump
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/zic
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/nstat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ldconfig
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/sln
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/pam_tally2
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/xtables-multi
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/glibc_post_upgrade.x86_64
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: sbin/pam_console_apply
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/pwhistory_helper
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/iconvconfig
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/iconvconfig.x86_64
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/unix_chkpwd
+# owner: root
+# group: root
+# flags: s--
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/rtmon
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/sefcontext_compile
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ctrlaltdel
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/install-info
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/delpart
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/chkconfig
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/fdformat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/alternatives
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/unix_update
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: sbin/rtpr
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/fdisk
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ss
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/capsh
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/findfs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/getcap
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/fsck
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/tc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/getpcaps
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/fsck.cramfs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/setcap
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/grubby
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/sasldblistusers2
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/fsck.minix
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/saslpasswd2
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/fsfreeze
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/killall5
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/fstrim
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/hwclock
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ethtool
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ldattach
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/avcstat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/losetup
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/getenforce
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/mkfs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/getsebool
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/mkfs.cramfs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/matchpathcon
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/sysctl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/selinuxconlist
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/installkernel
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/selinuxdefcon
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/new-kernel-pkg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/selinuxenabled
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/logrotate
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/selinuxexeccon
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/mkfs.minix
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/setenforce
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/mkswap
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/chroot
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/nologin
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/partx
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/rdisc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/chpasswd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/pivot_root
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/groupadd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: sbin/readprofile
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/groupdel
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: sbin/resizepart
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/groupmems
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: sbin/rtcwake
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/groupmod
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: sbin/runuser
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/grpck
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/sfdisk
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/grpconv
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/sulogin
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/grpunconv
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/swaplabel
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/newusers
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/arpd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/pwck
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/swapoff
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/pwconv
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/swapon
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/pwunconv
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/switch_root
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/useradd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: sbin/wipefs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/userdel
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: sbin/fixfiles
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/usermod
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: sbin/bridge
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/cbq
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/vipw
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/blkdiscard
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ifup
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/cracklib-check
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/agetty
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/crond
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/cracklib-format
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/blkid
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/cracklib-packer
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/pppdump
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/chat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/cracklib-unpacker
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/blockdev
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/pppd
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: sbin/create-cracklib-dict
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/load_policy
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/faillock
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/cfdisk
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/tcsd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/mkhomedir_helper
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/lchage
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/semodule
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/lgroupadd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/sestatus
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/lgroupdel
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/setfiles
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/lgroupmod
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/genl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/lid
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/setsebool
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/lnewusers
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/hardlink
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/lpasswd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/addgnupghome
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/luseradd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/applygnupgdefaults
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/luserdel
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/lusermod
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/addpart
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ifcfg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ifstat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/lnstat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/routef
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/routel
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/rtacct
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/avahi-autoipd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/kpartx
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/blkdeactivate
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: sbin/dmsetup
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: sbin/weak-modules
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/arping
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/clockdiff
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ifenslave
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/consoletype
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/genhostid
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ifdown
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/netreport
+# owner: root
+# group: root
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ppp-watch
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/service
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/sushell
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/sys-unconfig
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/usernetctl
+# owner: root
+# group: root
+# flags: s--
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/eapol_test
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/wpa_cli
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/wpa_passphrase
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/wpa_supplicant
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/anacron
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/grub2-bios-setup
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/grub2-install
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/grub2-macbless
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/grub2-mkconfig
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/grub2-ofpathname
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/grub2-probe
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/grub2-reboot
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/grub2-rpm-sort
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/grub2-set-default
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/grub2-setpassword
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/grub2-sparc64-setup
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/dmeventd
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: sbin/dnsmasq
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/sshd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/pppoe-discovery
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: sbin/lvmetad
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: sbin/pppstats
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/biosdevname
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/plymouth-set-default-theme
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/lvmpolld
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: sbin/plymouthd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/fxload
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/lvm
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: sbin/btrfs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/lvmconf
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: sbin/ntpd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ntpdc
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/pdata_tools
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ntpq
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/mtr
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/iotop
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/biosdecode
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/dmidecode
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ownership
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/vpddecode
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/virt-what
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/arp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/dhclient
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/route
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/dhclient-script
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/lvmdump
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: sbin/lsof
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/NetworkManager
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/kdump
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/kexec
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/makedumpfile
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/mkdumprd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/vmcore-dmesg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/irqbalance
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/vgimportclone
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: sbin/rsyslogd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/tuned
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/tuned-adm
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/fsadm
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: sbin/accessdb
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/audispd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: sbin/auditctl
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: sbin/auditd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: sbin/augenrules
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: sbin/aureport
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ausearch
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/autrace
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::---
+
+# file: sbin/postalias
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/postcat
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/postconf
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/postdrop
+# owner: root
+# group: postdrop
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/postfix
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/postkick
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/postlock
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/postlog
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/postmap
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/postmulti
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/postqueue
+# owner: root
+# group: postdrop
+# flags: -s-
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/postsuper
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/sendmail.postfix
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/smtp-sink
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/smtp-source
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/e2fsck
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/intel-microcode2ucode
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/sserver
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/sshd-keygen
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/uuserver
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/parted
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ntp-keygen
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/partprobe
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ntptime
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/iprconfig
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/tickadj
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/iprdbg
+# owner: root
+# group: root
+user::rwx
+group::---
+other::---
+
+# file: sbin/ether-wake
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/iprdump
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ifconfig
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/iprinit
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ipmaddr
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/iprsos
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/iptunnel
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/iprupdate
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/mii-diag
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/fsck.ext2
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/e2label
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/cacertdir_rehash
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/mii-tool
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/visudo
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/nameif
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/fsck.xfs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/plipconfig
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/mkfs.xfs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/slattach
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/xfs_admin
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/xfs_bmap
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/xfs_copy
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/xfs_db
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/xfs_estimate
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/xfs_freeze
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/nfnl_osf
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/xfs_fsr
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/xfs_growfs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/xfs_info
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/xfs_io
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/xfs_logprint
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/ntpdate
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/xfs_mdrestore
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/xfs_metadump
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/xfs_mkfile
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/xfs_ncheck
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/xfs_quota
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/xfs_repair
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/xfs_rtcp
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/mkfs.ext3
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/btrfs-convert
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/mkfs.ext4
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/btrfs-debug-tree
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/mount.vmhgfs
+# owner: root
+# group: root
+user::r-x
+group::r-x
+other::r-x
+
+# file: sbin/btrfs-find-root
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/btrfs-image
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/mke2fs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/btrfs-map-logical
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/mkfs.ext2
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/btrfs-select-super
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/gss-server
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/btrfs-show-super
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/sim_server
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/btrfs-zero-log
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/btrfstune
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/fsck.btrfs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/mkfs.btrfs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/badblocks
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/debugfs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/dumpe2fs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/e2freefrag
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/e2image
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/e2undo
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/e4defrag
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/filefrag
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/logsave
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/mklost+found
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/resize2fs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/fsck.ext3
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/fsck.ext4
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: sbin/tune2fs
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+

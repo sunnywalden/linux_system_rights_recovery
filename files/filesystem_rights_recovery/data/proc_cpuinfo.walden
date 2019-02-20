@@ -1,0 +1,7 @@
+# file: proc/cpuinfo
+# owner: root
+# group: root
+user::r--
+group::r--
+other::r--
+

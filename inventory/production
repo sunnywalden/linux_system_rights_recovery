@@ -1,0 +1,26 @@
+[prometheus]
+10.1.16.32 os_type=centos deploy_type=single
+10.1.16.20 os_type=centos deploy_type=single
+
+[prometheus-cluster]
+10.1.16.32 os_type=centos deploy_type=cluster_idc
+10.1.16.20 os_type=centos deploy_type=cluster_master
+
+[influx:children]
+prometheus-cluster
+
+[alertmanager:children]
+prometheus-cluster
+
+[pushgateway:children]
+prometheus-cluster
+
+[dingtalk:children]
+prometheus-cluster
+
+[grafana:children]
+prometheus-cluster
+
+[nodeexporter]
+10.1.16.32 os_type=centos
+10.1.16.20 os_type=centos

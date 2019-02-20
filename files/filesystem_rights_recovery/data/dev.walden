@@ -1,0 +1,1430 @@
+# file: dev
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/vcsa6
+# owner: root
+# group: tty
+user::rw-
+group::rw-
+other::---
+
+# file: dev/vcs6
+# owner: root
+# group: tty
+user::rw-
+group::rw-
+other::---
+
+# file: dev/vcsa5
+# owner: root
+# group: tty
+user::rw-
+group::rw-
+other::---
+
+# file: dev/vcs5
+# owner: root
+# group: tty
+user::rw-
+group::rw-
+other::---
+
+# file: dev/vcsa4
+# owner: root
+# group: tty
+user::rw-
+group::rw-
+other::---
+
+# file: dev/vcs4
+# owner: root
+# group: tty
+user::rw-
+group::rw-
+other::---
+
+# file: dev/vcsa3
+# owner: root
+# group: tty
+user::rw-
+group::rw-
+other::---
+
+# file: dev/vcs3
+# owner: root
+# group: tty
+user::rw-
+group::rw-
+other::---
+
+# file: dev/vcsa2
+# owner: root
+# group: tty
+user::rw-
+group::rw-
+other::---
+
+# file: dev/vcs2
+# owner: root
+# group: tty
+user::rw-
+group::rw-
+other::---
+
+# file: dev/dm-2
+# owner: root
+# group: disk
+user::rw-
+group::rw-
+other::---
+
+# file: dev/parport0
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/sg4
+# owner: root
+# group: cdrom
+user::rw-
+group::rw-
+other::---
+
+# file: dev/sg3
+# owner: root
+# group: disk
+user::rw-
+group::rw-
+other::---
+
+# file: dev/sg2
+# owner: root
+# group: disk
+user::rw-
+group::rw-
+other::---
+
+# file: dev/sg1
+# owner: root
+# group: disk
+user::rw-
+group::rw-
+other::---
+
+# file: dev/sg0
+# owner: root
+# group: disk
+user::rw-
+group::rw-
+other::---
+
+# file: dev/vmci
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/ppp
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/uinput
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/loop-control
+# owner: root
+# group: disk
+user::rw-
+group::rw-
+other::---
+
+# file: dev/fuse
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: dev/uhid
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/snd
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/snd/seq
+# owner: root
+# group: audio
+user::rw-
+group::rw-
+other::---
+
+# file: dev/snd/timer
+# owner: root
+# group: audio
+user::rw-
+group::rw-
+other::---
+
+# file: dev/net
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/net/tun
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: dev/btrfs-control
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/vhost-net
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/vfio
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/vfio/vfio
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/hugepages
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/mqueue
+# owner: root
+# group: root
+# flags: --t
+user::rwx
+group::rwx
+other::rwx
+
+# file: dev/dm-1
+# owner: root
+# group: disk
+user::rw-
+group::rw-
+other::---
+
+# file: dev/centos
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/dm-0
+# owner: root
+# group: disk
+user::rw-
+group::rw-
+other::---
+
+# file: dev/sr0
+# owner: root
+# group: cdrom
+user::rw-
+group::rw-
+other::---
+
+# file: dev/disk
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/disk/by-uuid
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/disk/by-path
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/disk/by-id
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/sda2
+# owner: root
+# group: disk
+user::rw-
+group::rw-
+other::---
+
+# file: dev/sda1
+# owner: root
+# group: disk
+user::rw-
+group::rw-
+other::---
+
+# file: dev/sdb1
+# owner: root
+# group: disk
+user::rw-
+group::rw-
+other::---
+
+# file: dev/sda
+# owner: root
+# group: disk
+user::rw-
+group::rw-
+other::---
+
+# file: dev/sdb
+# owner: root
+# group: disk
+user::rw-
+group::rw-
+other::---
+
+# file: dev/sdc
+# owner: root
+# group: disk
+user::rw-
+group::rw-
+other::---
+
+# file: dev/sdd
+# owner: root
+# group: disk
+user::rw-
+group::rw-
+other::---
+
+# file: dev/fb0
+# owner: root
+# group: video
+user::rw-
+group::rw-
+other::---
+
+# file: dev/bsg
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/bsg/1:0:0:0
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/bsg/2:0:3:0
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/bsg/2:0:2:0
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/bsg/2:0:1:0
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/bsg/2:0:0:0
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/dri
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/dri/card0
+# owner: root
+# group: video
+user::rw-
+group::rw-
+other::---
+
+# file: dev/dri/renderD128
+# owner: root
+# group: video
+user::rw-
+group::rw-
+other::---
+
+# file: dev/dri/controlD64
+# owner: root
+# group: video
+user::rw-
+group::---
+other::---
+
+# file: dev/block
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/fd0
+# owner: root
+# group: disk
+user::rw-
+group::rw-
+other::---
+
+# file: dev/char
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/mapper
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/mapper/control
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/log
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: dev/pts
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/pts/0
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/pts/ptmx
+# owner: root
+# group: root
+user::---
+group::---
+other::---
+
+# file: dev/shm
+# owner: root
+# group: root
+# flags: --t
+user::rwx
+group::rwx
+other::rwx
+
+# file: dev/network_throughput
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/network_latency
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/cpu_dma_latency
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/mcelog
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/rtc0
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/input
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/input/event3
+# owner: root
+# group: input
+user::rw-
+group::rw-
+other::---
+
+# file: dev/input/by-path
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/input/event2
+# owner: root
+# group: input
+user::rw-
+group::rw-
+other::---
+
+# file: dev/input/mouse0
+# owner: root
+# group: input
+user::rw-
+group::rw-
+other::---
+
+# file: dev/input/event1
+# owner: root
+# group: input
+user::rw-
+group::rw-
+other::---
+
+# file: dev/input/event0
+# owner: root
+# group: input
+user::rw-
+group::rw-
+other::---
+
+# file: dev/input/mice
+# owner: root
+# group: input
+user::rw-
+group::rw-
+other::---
+
+# file: dev/usbmon0
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/crash
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/agpgart
+# owner: root
+# group: video
+user::rw-
+group::rw-
+other::---
+
+# file: dev/nvram
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/hpet
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/raw
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/raw/rawctl
+# owner: root
+# group: disk
+user::rw-
+group::rw-
+other::---
+
+# file: dev/ttyS3
+# owner: root
+# group: dialout
+user::rw-
+group::rw-
+other::---
+
+# file: dev/ttyS2
+# owner: root
+# group: dialout
+user::rw-
+group::rw-
+other::---
+
+# file: dev/ttyS1
+# owner: root
+# group: dialout
+user::rw-
+group::rw-
+other::---
+
+# file: dev/ttyS0
+# owner: root
+# group: dialout
+user::rw-
+group::rw-
+other::---
+
+# file: dev/ptmx
+# owner: root
+# group: tty
+user::rw-
+group::rw-
+other::rw-
+
+# file: dev/autofs
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/snapshot
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/cpu
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/cpu/microcode
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/cpu/7
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/cpu/7/cpuid
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/cpu/7/msr
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/cpu/6
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/cpu/6/cpuid
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/cpu/6/msr
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/cpu/5
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/cpu/5/cpuid
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/cpu/5/msr
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/cpu/4
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/cpu/4/cpuid
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/cpu/4/msr
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/cpu/3
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/cpu/3/cpuid
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/cpu/3/msr
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/cpu/2
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/cpu/2/cpuid
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/cpu/2/msr
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/cpu/1
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/cpu/1/cpuid
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/cpu/1/msr
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/cpu/0
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+
+# file: dev/cpu/0/cpuid
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/cpu/0/msr
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/tty63
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty62
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty61
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty60
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty59
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty58
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty57
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty56
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty55
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty54
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty53
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty52
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty51
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty50
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty49
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty48
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty47
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty46
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty45
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty44
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty43
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty42
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty41
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty40
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty39
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty38
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty37
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty36
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty35
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty34
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty33
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty32
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty31
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty30
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty29
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty28
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty27
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty26
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty25
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty24
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty23
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty22
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty21
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty20
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty19
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty18
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty17
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty16
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty15
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty14
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty13
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty12
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty11
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty10
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty9
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty8
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty7
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty6
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty5
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty4
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty3
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty2
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/tty1
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/vcsa1
+# owner: root
+# group: tty
+user::rw-
+group::rw-
+other::---
+
+# file: dev/vcs1
+# owner: root
+# group: tty
+user::rw-
+group::rw-
+other::---
+
+# file: dev/vcsa
+# owner: root
+# group: tty
+user::rw-
+group::rw-
+other::---
+
+# file: dev/vcs
+# owner: root
+# group: tty
+user::rw-
+group::rw-
+other::---
+
+# file: dev/tty0
+# owner: root
+# group: tty
+user::rw-
+group::-w-
+other::---
+
+# file: dev/console
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/tty
+# owner: root
+# group: tty
+user::rw-
+group::rw-
+other::rw-
+
+# file: dev/oldmem
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+
+# file: dev/kmsg
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
+# file: dev/urandom
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: dev/random
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: dev/full
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: dev/zero
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: dev/port
+# owner: root
+# group: kmem
+user::rw-
+group::r--
+other::---
+
+# file: dev/null
+# owner: root
+# group: root
+user::rw-
+group::rw-
+other::rw-
+
+# file: dev/mem
+# owner: root
+# group: kmem
+user::rw-
+group::r--
+other::---
+
+# file: dev/vga_arbiter
+# owner: root
+# group: root
+user::rw-
+group::---
+other::---
+

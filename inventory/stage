@@ -1,0 +1,16 @@
+[prometheus]
+10.1.16.32 os_type=centos
+
+[influx:children]
+prometheus
+
+[grafana:children]
+prometheus
+
+[nodes]
+10.1.16.32 os_type=centos
+10.1.16.20 os_type=centos
+10.1.5.17 os_type=centos
+
+[mac]
+10.2.130.217 os_type=macos

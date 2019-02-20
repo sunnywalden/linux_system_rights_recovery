@@ -1,0 +1,7 @@
+# file: proc/timer_stats
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::r--
+
