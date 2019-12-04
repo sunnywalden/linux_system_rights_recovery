@@ -1,5 +1,7 @@
 # filesystem_rights_recovery_tools
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://github.com/hhyo/archery/blob/master/LICENSE)
+
 ## 方案
 ### 方案简述
 本项目通过ACL快速恢复centos 7文件系统权限。
